@@ -1,0 +1,48 @@
+﻿<games>
+	<section name="Roulettes" column="4">
+		<game id ="roulette" name="Roulette" game_on="1" game_active="1" table_select="1" public_game="1" hc="1" hc_num_shift="1" />  
+		<game id ="roulette_usa" name="RouletteUsa" game_on="1" game_active="1" table_select="1" public_game="1" hc="1" hc_num_shift="1"  /> 
+		<game id ="roulette_pro" name="Roulette_Pro" game_on="1" game_active="1" table_select="1" public_game="1" hc="1" hc_num_shift="1"  /> 
+		<game id ="roulette_fr" name="RouletteFr" game_on="1" game_active="1" table_select="1" public_game="1" hc="1" hc_num_shift="1"  /> 
+	</section>
+	<section name="Cards" column="3">
+		<game id ="blackjack" name="Blackjack" game_on="1" game_active="1" table_select="1" public_game="1" hc="1" hc_num_shift="1"  />
+		<game id ="blackjack_one" name="BlackjackOne" game_on="1" game_active="1" table_select="1" public_game="0" hc="1" hc_num_shift="1"  />
+		<game id ="baccarat" name="Baccarat" game_on="1" game_active="1" table_select="1" public_game="1" hc="1" hc_num_shift="1"  />
+	</section>
+	<section name="Pokers" column="2">
+		<game id ="oasispoker" name="OasisPoker" game_on="1" game_active="1" table_select="1" public_game="1" hc="1" hc_num_shift="1"  />
+		<game id ="fivecardpoker" name="FiveCardPoker" game_on="1" game_active="1" table_select="1" public_game="1" hc="1" hc_num_shift="1"  />
+	</section>
+	<section name="Slots" column="4">
+		<game id ="wildwildwest" name="WildWildWest" game_on="1" game_active="1" hc="1" hc_num_shift="5" popular="1"/>
+		<game id ="shopping" name="Shopping" game_on="1" game_active="1" hc="1" hc_num_shift="5" popular="0"/>
+		<game id ="lucky7" name="LuckySeven" game_on="1" game_active="1" hc="1" hc_num_shift="3" popular="1"/>
+		<game id ="luckydragon" name="LuckyDragon" game_on="1" game_active="1" hc="1" hc_num_shift="5" popular="0"/>
+		<game id ="fruitmania" name="FruitMania" game_on="1" game_active="1" hc="1" hc_num_shift="5" popular="0"/>
+		<game id ="fruitmachine" name="FruitMachine" game_on="1" game_active="1" hc="1" hc_num_shift="3" popular="1"/>	
+		<game id ="fatamorgana" name="FataMorgana" game_on="1" game_active="1" hc="1" hc_num_shift="5" popular="0"/>
+		<game id ="doublemagic" name="DoubleMagic" game_on="1" game_active="1" hc="1" hc_num_shift="3" popular="0"/>
+		<game id ="diamondpalace" name="DiamondPalace" game_on="1" game_active="1" hc="1" hc_num_shift="5" popular="0"/>
+		<game id ="cristalluck" name="CristalLuck" game_on="1" game_active="1" hc="1" hc_num_shift="3" popular="1"/>
+		<game id ="cristaldream" name="CristalDreams" game_on="1" game_active="1" hc="1" hc_num_shift="5" popular="0"/>
+		<game id ="cleopatratreasures" name="CleopatraTreasures" game_on="1" game_active="1" hc="1" hc_num_shift="5" popular="1"/>
+		<game id ="chinesekitchen" name="ChineseKitchen" game_on="1" game_active="1" hc="1" hc_num_shift="5" popular="0"/>
+		<game id ="casino" name="Casino" game_on="1" game_active="1" hc="1" hc_num_shift="5" popular="1"/>
+		<game id ="slot31" name="PhotoSafari" game_on="1" game_active="1"  isnew="1" issoon="0" hc="1" hc_num_shift="3" popular="1"/>
+		<game id ="slot32" name="MrGold" game_on="1" game_active="1"  isnew="1" issoon="0" hc="1" hc_num_shift="3" popular="1"/>
+		<game id ="slot33" name="MrsGold" game_on="1" game_active="1"  isnew="1" issoon="0" hc="1" hc_num_shift="3" popular="0"/>
+		<game id ="olimpia" name="Olimpia" game_on="1" game_active="0" isnew="0" issoon="1" hc="1" hc_num_shift="5" popular="0"/>
+		<game id ="astro" name="Astro" game_on="1" game_active="1" hc="1" hc_num_shift="5" popular="0"/>
+		<game id ="aladdinswishes" name="AladdinsWishes" game_on="1" game_active="1" hc="1" hc_num_shift="5" popular="0"/>
+	</section>
+	<section name="Videopokers" column="3">	
+		<game id ="jacksorbetter" name="JacksBetter" game_on="1" game_active="1" hc="1" hc_num_shift="1"  />  
+		<game id ="deuceswild" name="DeucesWild" game_on="1" game_active="1" hc="1" hc_num_shift="1"  />  
+		<game id ="jokerpoker" name="JokerPoker" game_on="1" game_active="1" hc="1" hc_num_shift="1"  />  
+	</section>
+	<section name="Keno" column="1">
+		<game id ="keno" name="Keno" game_on="1" game_active="1" hc="1" hc_num_shift="1"  />  
+	</section>
+
+</games>

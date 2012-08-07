@@ -1,0 +1,2273 @@
+﻿<data>
+	<text id="reconnect_message" lang="language">
+		<ru>Игра была восстановлена после обрыва соединения</ru>
+		<en>Reconnect</en>
+	</text>	
+	<text id="text_chat_noadmins" lang="language">
+		<ru>Извините, но на данный момент нет свободных операторов.</ru>
+		<en>No admins online</en>
+	</text>
+	<text id="text_chat_connecting" lang="language">
+		<ru>Соединение с сервером чата...</ru>
+		<en>Connecting to chat server...</en>
+	</text>
+	<text id="text_chat_reconnecting" lang="language">
+		<ru>Соединение с сервером разорвано. Повторное соединение произойдет через 5 секунд …</ru>
+		<en>Connecting to chat server...</en>
+	</text>
+	<text id="text_chat_admin_connected" lang="language">
+		<ru>К Вам подключился оператор #oprName</ru>
+		<en>Operator #oprName connect to you</en>
+	</text>
+	<text id="text_chat_admin_disconnected" lang="language">
+		<ru>От Вас отключился оператор #oprName</ru>
+		<en>Operator #oprName disconnect from you</en>
+	</text>
+	<text id="text_chat_rateadmin" lang="language">
+		<ru>Оцените оператора</ru>
+		<en>Evaluate manager</en>
+	</text>
+	<text id="text_chat_banned" lang="language">
+		<ru>Оператор #oprName заблокировал Вас в чате, Вы не можете писать сообщения.</ru>
+		<en>Оператор #oprName заблокировал Вас в чате, Вы не можете писать сообщения.</en>
+	</text>
+	<text id="text_chat_unbanned" lang="language">
+		<ru>Оператор #oprName разблокировал Вас в чате, Вы теперь можете писать сообщения.</ru>
+		<en>Оператор #oprName разблокировал Вас в чате, Вы теперь можете писать сообщения.</en>
+	</text>
+	<text id="text_chat_admin" lang="language">
+		<ru>Администратор</ru>
+		<en>Administrator</en>
+	</text>
+	<text id="text_chat_you" lang="language">
+		<ru>Вы</ru>
+		<en>You</en>
+	</text>	
+	<text id="text_chat_notice" lang="language">
+		<ru>Объявление</ru>
+		<en>Notice</en>
+	</text>	
+	<text id="text_chat_wellcome" lang="language">
+		<ru>Напишите, пожалуйста, свой вопрос и в течение минуты к Вам подключится свободный оператор.</ru>
+		<en>Welcome to Customer Support Casino.</en>
+	</text>
+	<text id="text_chat_enter_message" lang="language">
+		<ru>Пожалуйста, введите Ваше сообщение.</ru>
+		<en>Please enter your message</en>
+	</text>
+	<text id="error_nodepsystem" lang="language">
+		<ru>На данный момент платежная система недоступна.</ru>
+		<en>Unknown server error</en>
+	</text>
+	<text id="error_notextmodule" lang="language">
+		<ru>Не загрузился текстовый модуль игры</ru>
+		<en>Text module of the game wasn't loaded</en>
+	</text>
+	<text id="error_loginbad" lang="language">
+		<ru>Логин задан неверно - он должен содержать от #minlen до #maxlen цифр или букв латинского алфавита и начинаться с буквы</ru>
+		<en>Login was set incorrectly - it should contain from #minlen to #maxlen figures or letters</en>
+	</text>
+	<text id="error_passwordbad" lang="language">
+		<ru>Пароль задан неверно - он должен содержать от #minlen до #maxlen цифр, знаков или букв латинского алфавита. Убедитесь в том, что Ваша раскладка клавиатуры стоит (EN). Проверьте, не активирован ли у Вас Caps Lock</ru>
+		<en>Password was set incorrectly - it should contain from #minlen to #maxlen figures or letters. Make sure that your keyboard is (EN). Check is not activated if you have Caps Lock</en>
+    </text>
+	<text id="text_captcha_error" lang="language">
+		<ru>Некорректный выбор числа.</ru>
+		<en>Incorrect choice of number.</en>
+	</text>
+	<text id="roulette_doublelimit" lang="language">
+		<ru>Превышен лимит по одной из установленных ставок</ru>
+		<en>Limit is reached for one of the rates</en>
+	</text> 
+	<text id="error_selectbirthday" lang="language">
+		<ru>Не указана дата рождения. Укажите действительную дату Вашего рождения.</ru>
+		<en>Not select the date of birth. Specify the valid date your birth.</en>
+	</text>
+	<text id="error_selectcountry" lang="language">
+		<ru>Не выбрана страна. Выберите страну фактического месторасположения.</ru>
+		<en>Not selected country. Select the country of the actual location.</en>
+	</text>
+
+	<text id="error_authreject" lang="language">
+		<ru>В авторизации было отказано</ru>
+		<en>You've been refused to authorization</en>
+	</text>
+	<text id="error_authlogin" lang="language">
+		<ru>Неправильный логин или пароль</ru>
+		<en>Invalid login or password</en>
+	</text>
+	<text id="error_authattempt" lang="language">
+		<ru>Слишком много попыток входа. Повторите попытку позже</ru>
+		<en>Too many entrance attempts. Try again later</en>
+	</text>
+	<text id="error_authnick" lang="language">
+		<ru>Недопустимый псевдоним</ru>
+		<en>Impossible nickname</en>
+	</text>
+	<text id="error_authcode" lang="language">
+		<ru>Неверный защитный код</ru>
+		<en>Invalid protective code</en>
+	</text>
+	<text id="error_authblock" lang="language">
+		<ru><![CDATA[Ваш аккаунт заблокирован. Обратитесь в <a href="asfunction:_root.gotoSite"><u><b>чат службы поддержки</b></u></a> интернет-казино.]]></ru>
+		<en><![CDATA[Your account has been blocked. Contact <a href="asfunction:_root.gotoSite"><u><b>the customer service chat</b></u></a> online casinos.]]></en>
+	</text>
+	<text id="error_authother" lang="language">
+		<ru>Неопределенная ошибка сервера</ru>
+		<en>Unknown server error</en>
+	</text>
+	
+	<text id="error_authloginexist" lang="language">
+        <ru>Ваш электронный адрес уже зарегистрирован в казино Кристалл Палас. Для авторизации введите пожалуйста пароль.</ru>
+        <en>Email already exist, please try another one</en>
+	</text>
+	<text id="error_authemailexist" lang="language">
+		<ru>Ваш электронный адрес уже зарегистрирован в казино Кристалл Палас.</ru>
+		<en>Email already exist, please try another one</en>
+	</text>
+	<text id="error_authlogininvalid" lang="language">
+		<ru>неправильный логин или пароль</ru>
+		<en>wrong login or password</en>
+	</text>
+	<text id="error_authemailinvalid" lang="language">
+		<ru>введен некорректный адрес электронной почты</ru>
+		<en>wrong email format, please enter correct format</en>
+	</text>	
+	
+	<text id="error_remindpassword" lang="language">
+		<ru>При попытке отправки пароля произошла ошибка. Попробуйте запросить пароль позже</ru>
+		<en>Error occured while requesting password. Please try later</en>
+	</text>
+	<text id="error_editlogin" lang="language">
+		<ru>Недопустимый или уже используемый логин</ru>
+		<en>Impossible or already used login</en>
+	</text>
+	<text id="error_editattempt" lang="language">
+		<ru>Слишком частые изменения профиля. Повторите попытку позже</ru>
+		<en>Too many profile changes. Try again later</en>
+	</text>
+	<text id="error_gamereject" lang="language">
+		<ru>К сожалению, в данный момент игра недоступна. Повторите попытку позже или обратитесь в службу поддержки</ru>
+		<en>We are sorry, at present time the game is unavailable. Try again later or contact our customer support</en>
+	</text>
+	<text id="error_passwordunequal" lang="language">
+		<ru>Не совпадают значения полей пароля и подтверждения пароля. Проверьте правильность ввода</ru>
+		<en>Values of the password field and confirmation of the password do not coincide. Check up the correctness of inputing</en>
+	</text>
+	<text id="error_emailbad" lang="language">
+		<ru>Неверно задан адрес электронной почты - он должен быть задан в формате mail@server.com и не превышать 30 символов</ru>
+		<en>E-mail address was set incorrectly - it should be set in the following format mail@server.com</en>
+	</text>
+	<text id="error_nickbad" lang="language">
+		<ru>Неверно задан псевдоним - он должен содержать не менее #minlen цифр или букв латинского алфавита</ru>
+		<en>Nickname was set incorrectly - it should contain no less then #minlen figures or letters </en>
+	</text>
+	<text id="error_nickbad2" lang="language">
+		<ru>Неверно задан псевдоним - он должен начинаться с букв латинского алфавита</ru>
+		<en>Nickname was set incorrectly</en>
+	</text>
+	<text id="error_codebad" lang="language">
+		<ru>Неверно задан код - он должен содержать только цифры и знаки</ru>
+		<en>Phone number was set incorrectly</en>
+	</text>
+	<text id="error_phonebad" lang="language">
+		<ru>Неверно задан телефон - он должен содержать только цифры и состоять минимум из 7 знаков</ru>
+		<en>Phone number was set incorrectly</en>
+	</text>
+	<text id="error_acceptrules" lang="language">
+		<ru>Для продолжения регистрации Вы должны принять Правила казино</ru>
+		<en>For further registration, You should accept Terms and Conditions of the Casino</en>
+	</text>
+	<text id="error_summbad" lang="language">
+		<ru>Неправильный формат суммы платежа - она должна представлять собой положительное число.</ru>
+		<en>Wrong format of the payment amount - it should represent itself as positive number.</en>
+	</text>
+	<text id="error_cashbaddeposit" lang="language">
+		<ru>Неверная сумма депозита, минимальная сумма депозита #minval, максимальная сумма депозита #maxval</ru>
+		<en>Wrong sum for deposit. Please, note that the minimum sum is #minval and maximum sum is #maxval</en>
+	</text>
+	<text id="error_numberfrom" lang="language">
+		<ru> от #minval</ru>
+		<en> from #minval</en>
+	</text>
+	<text id="error_numberto" lang="language">
+		<ru> до #maxval</ru>
+		<en> to #maxval</en>
+	</text>
+	<text id="error_ownerbad" lang="language">
+		<ru>Имя и фамилия владельца карты должно содержать только буквы латинского алфавита и в точности совпадать с данными на лицевой стороне кредитной карты</ru>
+		<en>Name of the cardholder was set incorrectly. It should contain no less then #minlen symbols</en>
+	</text>
+	<text id="error_wmidbad" lang="language">
+		<ru>WM-идентификатор задан неверно - он должен состоять из #minlen цифр</ru>
+		<en>WM-identifier was set incorrectly it should contain #minlen figures</en>
+	</text>
+	<text id="error_accidbad" lang="language">
+		<ru>Account ID задан неверно - он должен состоять из #minlen цифр</ru>
+		<en>Account ID was set incorrectly it should contain #minlen figures</en>
+	</text>
+	<text id="error_secidbad" lang="language">
+		<ru>Secure ID задан неверно - он должен состоять из #minlen цифр</ru>
+		<en>Secure ID was set incorrectly it should contain #minlen figures</en>
+	</text>
+	<text id="error_wmpursebad" lang="language">
+		<ru>Номер WMZ-кошелька задан неверно - он должен начинаться с буквы соответствующей валюте кошелька Z(R,E,U) и состоять из 12 цифр</ru>
+		<en>Number of WMZ-purse was set incorrectly - it should contain 12 figures with letter Z(R,E,U) at the beggining.</en>
+	</text>
+	<text id="error_ympursebad" lang="language">
+		<ru>Номер кошелька Яндекс Деньги задан неверно - он должен состоять из #minlen - #maxlen цифр</ru>
+		<en>Account number Yandex Money was set incorrectly - it should contain #minlen - #maxlen figures</en>
+	</text>
+	<text id="error_rcpursebad" lang="language">
+		<ru>Номер идентификатора задан неверно - он должен быть длиной до #maxlen символов, и не содержать букв русского алфавита</ru>
+		<en>Identifier number was set incorrectly - it should contain #maxlen figures, without russian letters</en>
+	</text>
+	<text id="error_eppursebad" lang="language">
+		<ru>Неправильный формат номера кошелька</ru>
+		<en>Wrong format of cashier number</en>
+	</text>
+	<text id="error_bonuscouponbad" lang="language">
+		<ru>Номер купона неверен или недействительный. За дополнительной информацией обратитесь, пожалуйста, в Службу поддержки казино.</ru>
+		<en>Wrong format of bonus coupon</en>
+	</text>
+	<text id="error_contact_name" lang="language">
+		<ru>Неверно задано имя.</ru>
+		<en>Wrong name.</en>
+	</text>
+	<text id="error_contact_login" lang="language">
+		<ru>Неверно задан логин</ru>
+		<en>Wrong login.</en>
+	</text>
+	<text id="error_contact_email" lang="language">
+		<ru>Неверно задан e-mail</ru>
+		<en>Wrong e-mail.</en>
+	</text>
+	<text id="error_contact_phone" lang="language">
+		<ru>Неверно задан телефон</ru>
+		<en>Wrong phone number.</en>
+	</text>
+	<text id="error_contact_message" lang="language">
+		<ru>Неверно задано сообщение</ru>
+		<en>Wrong message.</en>
+	</text>
+	<text id="phone_details" lang="language">
+		<ru>Код должен состоять не менее чем из 2 цифр (учитываются только цифры), номер не менее 7. Не принимаются номера состоящие из повторяющихся цифр (Например 1111111). Дополнительный номер (нижнее поле) является необязательным.</ru>
+		<en>Please fill all form fields.</en>
+	</text>
+	<text id="hot_news_title" lang="language">
+		<ru>ГОРЯЧИЕ НОВОСТИ</ru>
+		<en>HOT NEWS</en>
+	</text>	
+	
+	<text id="error_namebad" lang="language">
+		<ru>Не указаны Ваши данные. Введите Ваши фамилию, имя и отчество.</ru>
+		<en>Not listed your details. Enter your name, last name and middle name.</en>
+	</text>
+	<text id="error_citybad" lang="language">
+		<ru>Не указан город. Введите город фактического проживания.</ru>
+		<en>Not specified city. Enter the city of actual residence.</en>
+	</text>
+	<text id="error_friendnamebad" lang="language">
+		<ru>Имя друга задано неверно - оно должно содержать не менее #minlen символов</ru>
+		<en>Friend's name was set incorrectly - it should contain no less then #minlen symbols</en>
+	</text>
+	<text id="error_friendemailbad" lang="language">
+		<ru>Неверно задан адрес электронной почты друга - он должен быть задан в формате mail@server.com</ru>
+		<en>Friend's e-mail address was set incorrectly - it should be set in the following format mail@server.com</en>
+	</text>
+	<text id="error_moneydeposit" lang="language">
+		<ru>Ваш депозит на сумму #cash не принят. Обратитесь в службу поддержки казино</ru>
+		<en>Your deposit amounted #cash was not accept. Please, contact our customer support</en>
+	</text>
+	<text id="error_moneywithdraw" lang="language">
+		<ru>Ваш запрос на выплату не принят. Обратитесь в службу поддержки казино</ru>
+		<en>Your payment request was not accept. Please, contact our customer support</en>
+	</text>
+	<text id="error_moneyfun" lang="language">
+		<ru>Ошибка при попытке изменения виртуального счета на #cash</ru>
+		<en>Error occured while changing virtual account on #cash</en>
+	</text>
+	<text id="error_cashhistory" lang="language">
+		<ru>История финансовых операций не может быть получена. Попробуйте выполнить запрос позже</ru>
+		<en>The history of financial operations can not be received. Try again later</en>
+	</text>
+	<text id="error_bonushistory" lang="language">
+		<ru>История бонусов не может быть получена. Попробуйте выполнить запрос позже</ru>
+		<en>Bonus history can not be received. Try again later</en>
+	</text>
+	<text id="error_bonusaccount" lang="language">
+		<ru>Состояние бонусного счета не может быть получено. Попробуйте выполнить запрос позже</ru>
+		<en>Bonus account status can not be received. Please, try again later</en>
+	</text>
+	<text id="error_gamehistory" lang="language">
+		<ru>История игры не может быть получена. Попробуйте выполнить запрос позже</ru>
+		<en>Game history can not be received. Please, try again later</en>
+	</text>
+		<!-- ПОДСКАЗКА В СЛОТАХ -->
+	<text id="text_press_spin" lang="language">
+		<ru>НАЖМИТЕ ВРАЩАТЬ, ЧТОБЫ НАЧАТЬ ИГРУ</ru>
+		<en>PRESS SPIN TO START THE GAME</en>
+	</text>	
+	<text id="text_good_luck" lang="language">
+		<ru>УДАЧИ!</ru>
+		<en>GOOD LUCK!</en>
+	</text>	
+	<text id="text_show_win" lang="language">
+		<ru>ЛИНИЯ #line ВЫИГРЫВАЕТ #one_win ОБЩИЙ ВЫИГРЫШ: #win</ru>
+		<en>LINE #line WINS #one_win TOTAL WIN: #win</en>
+	</text>	
+	<text id="text_cashout" lang="language">
+		<ru>НАЖМИТЕ СНЯТЬ ИЛИ УДВОИТЬ</ru>
+		<en>CLICK CASHOUT OR DOUBLE</en>
+	</text>	
+	<text id="text_chance_game1" lang="language">
+		<ru>МОЖНО УДВОИТЬ ВЫИГРЫШ, УГАДАВ ЦВЕТ КАРТЫ</ru>
+		<en>YOU MAY DOUBLE BY GUESSING THE COLOR OF THE CARD</en>
+	</text>	
+	<text id="text_chance_game2" lang="language">
+		<ru>МОЖНО УВЕЛИЧИТЬ ВЫИГРЫШ В 4 РАЗА, УГАДАВ МАСТЬ КАРТЫ</ru>
+		<en>YOU MAY MULTIPLY IT 4 TIMES BY GUESSING THE SUITE OF THE CARD</en>
+	</text>	
+	<text id="text_scatter" lang="language">
+		<ru>ТРИ СИМВОЛА SCATTER НАЧИНАЮТ БЕСПЛАТНЫЕ ВРАЩЕНИЯ!</ru>
+		<en>THREE OR MORE SYMBOLS "SCATTER" BEGIN FREE SPINS!</en>
+	</text>	
+	<text id="text_free_game" lang="language">
+		<ru>ВСЕ ВЫИГРЫШИ х2!</ru>
+		<en>MULTIPLIER х2!</en>
+	</text>
+	<text id="text_cashdeposit" lang="language">
+		<ru><![CDATA[Для продолжения,<br>нажмите на кнопку<br>"Пополнить счет".]]></ru>
+		<en><![CDATA[To continue, <br> click <br> "Deposit".]]></en>
+	</text>
+	
+	
+	<text id="error_cardcvv" lang="language">
+			<ru>CVV задан неверно - он должен состоять из #minlen или #maxlen
+цифр</ru>
+			<en>CVV should contain of #minlen or  #maxlen numbers</en>
+	</text>
+	
+	<text id="error_cardnumber" lang="language">
+		<ru>Номер кредитной карты задан неверно - он должен состоять из #minlen цифр</ru>
+		<en>Credit card number is entered incorrectly. Credit card number should consist of #minlen digits.</en>
+	</text>
+	
+	<text id="error_bonus_play" lang="language">
+		<ru><![CDATA[По правилам бонусной политики Казино #casino_name, в случае если игрок получает бонус, он может от него отказаться только в случае совершения ставок на сумму, в 10 раз превышающую размер бонуса. В данный момент у вас есть один или несколько бонусов, по которым вы не сделали необходимое количество ставок для отказа от бонуса(ов). Если у вас остались  вопросы по поводу процедуры списания бонусов, обратитесь в <u><a href="javascript:openChat();">ЧАТ</a></u> службы поддержки.]]></ru>
+        <en>Under the rules of your inquiry #casino_name, if a player receives a bonus, he can dispense with it only in the case of bids in an amount 10 times the size of the bonus. Now you have one or multiple bonuses for which you have not done the required number of bids for the waiver of the bonus(es).</en>
+	</text>	
+	
+	<text id="fun_users_message" lang="language">
+		<ru><![CDATA[<b>Поздравляем, Вы выиграли!</b>
+Обратите внимание на Ваше везение. Испытайте Вашу удачу в игре на <b>РЕАЛЬНЫЕ</b> деньги.
+Как пополнить счет можно узнать в <a href="asfunction:_root.gotoSite"><u><font color='#FF0000'><b>чате</b></font></u></a> службы поддержки.]]></ru>
+		<en><![CDATA[<b>Congratulations, you just won!</b>
+Now, Try your luck in <b>real</b>  money gaming.
+Make small deposit, win big money. Questions? Our <a href="asfunction:_root.gotoSite"><u><font color='#FF0000'><b>chat</b></font></u></a> is open 24/7 to assist you.]]></en>
+	</text>
+	
+	<text id="button_gotocashier" lang="language">
+		<ru>Продолжить</ru>
+		<en>Сontinue</en>
+	</text>
+	<text id="button_changetype" lang="language">
+		<ru>Играть на деньги</ru>
+		<en>Play for money</en>
+	</text>
+	<text id="button_changetype_fun" lang="language">
+		<ru>Играть бесплатно</ru>
+		<en>Play for fun</en>
+	</text>
+	<text id="button_ok" lang="language">
+		<ru>ОК</ru>
+		<en>OK</en>
+	</text>
+	<text id="button_cancel" lang="language">
+		<ru>Отмена</ru>
+		<en>Cancel</en>
+	</text>
+	<text id="button_yes" lang="language">
+		<ru>ДА</ru>
+		<en>YES</en>
+	</text>
+	<text id="button_no" lang="language">
+		<ru>НЕТ</ru>
+		<en>NO</en>
+	</text>
+	<text id="button_enter" lang="language">
+		<ru>Войти</ru>
+		<en>Enter</en>
+	</text>
+	<text id="button_playsingle" lang="language">
+		<ru>Приватный стол</ru>
+		<en>Private table</en>
+	</text>
+	<text id="button_playmultiplayer" lang="language">
+		<ru>Общий стол</ru>
+		<en>Public table</en>
+	</text>
+	<text id="button_forgotpassword" lang="language">
+		<ru>Забыли логин или пароль?</ru>
+		<en>Forgot your login or password?</en><!-- Forgot login or password? -->
+	</text>
+	<text id="button_remindpassword" lang="language">
+		<ru>Выслать пароль</ru>
+		<en>Remind password</en>
+	</text>
+	<text id="button_register" lang="language">
+		<ru>Зарегистрироваться</ru>
+		<en>Sign Up</en>
+	</text>
+	<text id="button_applychanges" lang="language">
+		<ru>Сохранить</ru>
+		<en>Save</en>
+	</text>
+	<text id="button_cancel" lang="language">
+		<ru>Отменить</ru>
+		<en>Cancel</en>
+	</text>
+	<text id="button_return" lang="language">
+		<ru>Вернуться</ru>
+		<en>Back</en>
+	</text>
+	<text id="button_send" lang="language">
+		<ru>Отправить</ru>
+		<en>Send</en>
+	</text>
+	<text id="button_send_more" lang="language">
+		<ru>Отправить еще</ru>
+		<en>Send more</en>
+	</text>
+	<text id="button_deposit" lang="language">
+		<ru>Пополнить счет</ru>
+		<en>Deposit</en>
+	</text>
+	<text id="button_deposit_2" lang="language">
+		<ru>Активировать</ru>
+		<en>Activate</en>
+	</text>
+	<text id="button_withdraw" lang="language">
+		<ru>Снять со счета</ru>
+		<en>Withdraw</en>
+	</text>
+	<text id="button_onlinesupport" lang="language">
+		<ru>ОПЕРАТОР</ru>
+		<en>OPERATOR</en>
+		<!--
+		<ru>Вызвать оператора</ru>
+		<en>Call operator</en>
+		-->
+	</text>
+
+	<!--Кнопки в играх -->
+	<text id="button_raise" lang="language">
+		<ru>ПОВЫСИТЬ</ru>
+		<en>RAISE</en>
+	</text>
+	<text id="button_change" lang="language">
+		<ru>ОБМЕН</ru>
+		<en>CHANGE</en>
+	</text>
+	<text id="button_buy_game" lang="language">
+		<ru>КУПИТЬ ИГРУ</ru>
+		<en>BUY GAME</en>
+	</text>
+	<text id="button_purchase" lang="language">
+		<ru>ОПЛАТИТЬ</ru>
+		<en>PURCHASE</en>
+	</text>
+	<text id="button_split" lang="language">
+		<ru>СПЛИТ</ru>
+		<en>SPLIT</en>
+	</text>
+	<text id="button_double" lang="language">
+		<ru>УДВОИТЬ</ru>
+		<en>DOUBLE</en>
+	</text>
+	<text id="button_even_game" lang="language">
+		<ru>РАВНЫЙ ВЫИГРЫШ</ru>
+		<en>EVEN GAME</en>
+	</text>
+	<text id="button_insurance" lang="language">
+		<ru>СТРАХОВКА</ru>
+		<en>INSURANCE</en>
+	</text>
+	<text id="button_surrender" lang="language">
+		<ru>СДАТЬСЯ</ru>
+		<en>SURRENDER</en>
+	</text>
+	<text id="button_stand" lang="language">
+		<ru>ХВАТИТ</ru>
+		<en>STAND</en>
+	</text>
+	<text id="button_hit" lang="language">
+		<ru>ЕЩЕ</ru>
+		<en>HIT</en>
+	</text>
+	<text id="button_deal" lang="language">
+		<ru>РАЗДАТЬ</ru>
+		<en>DEAL</en>
+	</text>
+	<text id="button_repeat_bets" lang="language">
+		<ru>ПОВТОР СТАВКИ</ru>
+		<en>REPEAT BETS</en>
+	</text>
+	<text id="button_repeat_bets_roulettes" lang="language">
+		<ru>ПОВТОР</ru>
+		<en>REPEAT</en>
+	</text>
+	<text id="button_clear_bets" lang="language">
+		<ru>УБРАТЬ СТАВКИ</ru>
+		<en>CLEAR BETS</en>
+	</text>
+	<text id="button_clear_keno" lang="language">
+		<ru>Стереть</ru>
+		<en>Clear</en>
+	</text>
+	<text id="button_repeat_keno" lang="language">
+		<ru><![CDATA[<b>Повторить<br>игру<b>]]></ru>
+		<en><![CDATA[<b>Repeat<br>pick<b>]]></en>
+	</text>
+	<text id="button_quickpick_keno" lang="language">
+		<ru><![CDATA[<b>Случайная<br>игра<b>]]></ru>
+		<en><![CDATA[<b>Quick<br>pick<b>]]></en>
+	</text>
+	<text id="button_play1_keno" lang="language">
+		<ru><![CDATA[<b>Играть<br>1<b>]]></ru>
+		<en><![CDATA[<b>Play<br>1<b>]]></en>
+	</text>
+	<text id="button_play5_keno" lang="language">
+		<ru><![CDATA[<b>Играть<br>5<b>]]></ru>
+		<en><![CDATA[<b>Play<br>5<b>]]></en>
+	</text>
+	<text id="button_play10_keno" lang="language">
+		<ru><![CDATA[<b>Играть<br>10<b>]]></ru>
+		<en><![CDATA[<b>Play<br>10<b>]]></en>
+	</text>
+	<text id="button_clear_bets_roulettes" lang="language">
+		<ru>УБРАТЬ</ru>
+		<en>CLEAR</en>
+	</text>
+	<text id="button_new_game" lang="language">
+		<ru>НОВАЯ ИГРА</ru>
+		<en>NEW GAME</en>
+	</text>
+	<text id="button_spin" lang="language">
+		<ru>Вращать</ru>
+		<en>Spin</en>
+	</text>
+	<text id="button_paytable" lang="language">
+		<ru>Таблица выплат</ru>
+		<en>Paytable</en>
+	</text>
+	<text id="button_maxbet" lang="language">
+		<ru>Макс. ставка</ru>
+		<en>Maxbet</en>
+	</text>
+	<text id="button_autogame" lang="language">
+		<ru>АВТОИГРА</ru>
+		<en>AUTOGAME</en>
+	</text>
+	<text id="button_change2" lang="language">
+		<ru>ЗАМЕНИТЬ</ru>
+		<en>CHANGE</en>
+	</text>
+	<text id="button_autogame_2" lang="language">
+		<ru>Авто игра</ru>
+		<en>Auto game</en>
+	</text>
+	<text id="button_stopautoplay" lang="language">
+		<ru>Стоп</ru>
+		<en>Stop</en>
+	</text>
+	<text id="button_gamble" lang="language">
+		<ru>Удвоить</ru>
+		<en>Gamble</en>
+	</text>
+	<text id="button_cashout" lang="language">
+		<ru>Снять</ru>
+		<en>Cashout</en>
+	</text>
+	
+	<text id="text_notypechange" lang="language">
+		<ru>Для изменения игровой валюты в публичном зале Вам необходимо выйти в Лобби.</ru>
+		<en>To change the game currency in the public hall you must go to the lobby.</en>
+	</text>
+	
+	<text id="text_chat_guest" lang="language">
+		<ru>Гость</ru>
+		<en>Guest</en>
+	</text>
+	<text id="text_chat_admin" lang="language">
+		<ru>Администратор</ru>
+		<en>Admin</en>
+	</text>
+	<text id="text_chat_admin_online" lang="language">
+		<ru>Online</ru>
+		<en>Online</en>
+	</text>
+	<text id="text_chat_admin_offline" lang="language">
+		<ru>Offline</ru>
+		<en>Offline</en>
+	</text>
+	
+	<text id="text_deal_deck" lang="language">
+		<ru>Раздача карт</ru>
+		<en>Deal number</en>
+	</text>
+	<text id="text_round" lang="language">
+		<ru>Раунд</ru>
+		<en>Round</en>
+	</text>
+	
+	<text id="text_currency" lang="language">
+		<ru>Валюта:</ru>
+		<en>Currency:</en>
+	</text>
+	<text id="text_summ" lang="language">
+		<ru>Сумма:</ru>
+		<en>Sum:</en>
+	</text>
+	<!--Интерфейс в играх -->
+	<text id="text_bet" lang="language">
+		<ru>СТАВКА</ru>
+		<en>BET</en>
+	</text>
+	<text id="text_bet_s" lang="language">
+		<ru>Ставка</ru>
+		<en>Bet</en>
+	</text>
+	<text id="text_bet_plus" lang="language">
+		<ru>СТАВКА+</ru>
+		<en>BET+</en>
+	</text>
+	<text id="text_ante" lang="language">
+		<ru>АНТЕ</ru>
+		<en>ANTE</en>
+	</text>
+	<text id="text_player" lang="language">
+		<ru>ИГРОК</ru>
+		<en>PLAYER</en>
+	</text>
+	<text id="text_banker" lang="language">
+		<ru>ДИЛЕР</ru>
+		<en>BANKER</en>
+	</text>
+	<text id="text_tie" lang="language">
+		<ru>НИЧЬЯ</ru>
+		<en>TIE</en>
+	</text>
+	<text id="text_lines" lang="language">
+		<ru>ЛИНИИ</ru>
+		<en>LINES</en>
+	</text>
+	<text id="text_lines_s" lang="language">
+		<ru>Линии</ru>
+		<en>Lines</en>
+	</text>
+	<text id="text_win" lang="language">
+		<ru>ВЫИГРЫШ</ru>
+		<en>WIN</en>
+	</text>
+	<text id="text_autogame" lang="language">
+		<ru>Автоигра</ru>
+		<en>Autogame</en>
+	</text>
+	<text id="text_numofgames" lang="language">
+		<ru>Количество игр</ru>
+		<en>Number of Games</en>
+	</text>
+	<text id="text_stopifend" lang="language">
+		<ru>Стоп после завершения игр</ru>
+		<en>Stop when completing games</en>
+	</text>
+	<text id="text_stopifwin" lang="language">
+		<ru>Стоп, если выигрыш</ru>
+		<en>Stop if the winnings</en>
+	</text>
+	<text id="text_stopifbalance" lang="language">
+		<ru>Стоп, если баланс</ru>
+		<en>Stop if the balance</en>
+	</text>
+	
+	<text id="text_numberofgames" lang="language">
+		<ru>Количество игр</ru>
+		<en>Number of games</en>
+	</text>
+	<text id="label_fillfields" lang="language">
+		<ru>Заполните поля для игры на деньги</ru>
+		<en>Fill out the fields for games for money</en>
+	</text>
+	<text id="label_mode_real" lang="language">
+		<ru>Играть на реальные деньги</ru>
+		<en>REAL Mode</en>
+	</text>
+	<text id="label_mode_fun" lang="language">
+		<ru>Играть на интерес</ru>
+		<en>FUN Mode</en>
+	</text>
+	<text id="label_login" lang="language">
+		<ru>Логин:</ru>
+		<en>Login:</en>
+	</text>
+	<text id="label_password" lang="language">
+		<ru>Пароль:</ru>
+		<en>Password:</en>
+	</text>
+	<text id="label_passwordchange" lang="language">
+		<ru>Сменить пароль:</ru>
+		<en>Change password:</en>
+	</text>
+	<text id="label_passwordconfirm" lang="language">
+		<ru>Повторите пароль:</ru>
+		<en>Confirm password:</en>
+	</text>
+	<text id="label_name" lang="language">
+		<ru>ФИО:</ru>
+		<en>Full name:</en>
+	</text>
+	<text id="label_lastname" lang="language">
+		<ru>Фамилия:</ru>
+		<en>Last name:</en>
+	</text>
+	<text id="label_city" lang="language">
+		<ru>Город:</ru>
+		<en>City:</en>
+	</text>
+	<text id="label_sex" lang="language">
+		<ru>Пол:</ru>
+		<en>Sex:</en>
+	</text>
+	<text id="label_captcha" lang="language">
+		<ru>Докажите, что Вы человек. Какое число больше?</ru>
+		<en>Prove that you are a human. What number is bigger?</en>
+	</text>
+	<text id="label_required_info" lang="language">
+		<ru>Обязательные поля для игры на реальные деньги.</ru>
+		<en>Necessary information that must be provided to play real.</en>
+	</text>
+	<text id="label_sexman" lang="language">
+		<ru>М</ru>
+		<en>М</en>
+	</text>
+	<text id="label_sexwoman" lang="language">
+		<ru>Ж</ru>
+		<en>F</en>
+	</text>
+	<text id="label_langru" lang="language">
+		<ru>Рус</ru>
+		<en>Ru</en>
+	</text>
+	<text id="label_langen" lang="language">
+		<ru>Англ</ru>
+		<en>Eng</en>
+	</text>
+	<text id="label_email" lang="language">
+		<ru>E-mail:</ru>
+		<en>E-mail:</en>
+	</text>
+	<text id="label_nickname" lang="language">
+		<ru>Псевдоним:</ru>
+		<en>Nickname:</en>
+	</text>
+	<text id="label_phone" lang="language">
+		<ru>Телефон:</ru>
+		<en>Phone:</en>
+	</text>	
+	<text id="label_code" lang="language">
+		<ru>Код:</ru>
+		<en>Code:</en>
+	</text>
+	<text id="label_birthday" lang="language">
+		<ru>День рождения:</ru>
+		<en>Date of birth:</en>
+	</text>
+	<text id="label_country" lang="language">
+		<ru>Страна:</ru>
+		<en>Country:</en>
+	</text>
+	<text id="label_language" lang="language">
+		<ru>Язык:</ru>
+		<en>Language:</en>
+	</text>
+	<text id="label_currency" lang="language">
+		<ru>Игровой счет:</ru>
+		<en>Game account:</en>
+	</text>
+	<text id="label_currencyfun" lang="language">
+		<ru>fun</ru>
+		<en>fun</en>
+	</text>
+	<text id="label_currencyreal" lang="language">
+		<ru>real</ru>
+		<en>real</en>
+	</text>
+	<text id="label_bonusaccept" lang="language">
+		<ru>получать игровые бонусы</ru>
+		<en>receive game bonuses</en>
+	</text>
+	<text id="label_rulesaccept" lang="language">
+		<ru><![CDATA[<b>соглашаюсь с <u>правилами</u></b> и получением рассылки на e-mail]]></ru>
+		<en><![CDATA[<b>agree with <u>Casino Terms</u></b>]]></en>
+	</text>
+	<text id="label_necessary" lang="language">
+		<ru>необходимые для заполнения поля</ru>
+		<en>fields marked with asterisk (*) are mandatory</en>
+	</text>
+	<text id="label_hall" lang="language">
+		<ru>Зал</ru>
+		<en>Hall</en>
+	</text>
+	<text id="label_table_2" lang="language">
+		<ru>Стол</ru>
+		<en>Table</en>
+	</text>
+	<text id="label_tablestandard" lang="language">
+		<ru>Стандарт</ru>
+		<en>Standart</en>
+	</text>
+	<text id="text_tableprivate" lang="language">
+		<ru>Приватный</ru>
+		<en>Private</en>
+	</text>
+	<text id="text_tablepublic" lang="language">
+		<ru>Публичный</ru>
+		<en>Public</en>
+	</text>
+	<text id="label_tablevip" lang="language">
+		<ru>V.I.P</ru>
+		<en>V.I.P</en>
+	</text>
+	<text id="label_limitsfield" lang="language">
+		<ru>Поле</ru>
+		<en>Field</en>
+	</text>
+	<text id="label_limitsmin" lang="language">
+		<ru>Мин</ru>
+		<en>Min</en>
+	</text>
+	<text id="label_limitsmax" lang="language">
+		<ru>Макс</ru>
+		<en>Max</en>
+	</text>
+	<text id="label_limitsminbet" lang="language">
+		<ru>Минимальная ставка:</ru>
+		<en>Min bet:</en>
+	</text>
+	<text id="label_limitsmaxbet" lang="language">
+		<ru>Максимальная ставка:</ru>
+		<en>Max bet:</en>
+	</text>
+	<text id="label_limitsmaxtable" lang="language">
+		<ru>Лимит стола:</ru>
+		<en>Table limit:</en>
+	</text>
+	<text id="label_limitsmaxpayout" lang="language">
+		<ru>Макс. выплата стола:</ru>
+		<en>Max table payout:</en>
+	</text>
+	<text id="label_limits_straightup" lang="language">
+		<ru>Straight up:</ru>
+		<en>Straight up:</en>
+	</text>
+	<text id="label_limits_split" lang="language">
+		<ru>Split:</ru>
+		<en>Split:</en>
+	</text>
+	<text id="label_limits_street" lang="language">
+		<ru>Street:</ru>
+		<en>Street:</en>
+	</text>
+	<text id="label_limits_corner" lang="language">
+		<ru>Corner:</ru>
+		<en>Corner:</en>
+	</text>
+	<text id="label_limits_sixline" lang="language">
+		<ru>Six line:</ru>
+		<en>Six line:</en>
+	</text>
+	<text id="label_limits_dozens" lang="language">
+		<ru>Dozens:</ru>
+		<en>Dozens:</en>
+	</text>
+	<text id="label_limits_columns" lang="language">
+		<ru>Columns:</ru>
+		<en>Columns:</en>
+	</text>
+	<text id="label_limits_evenchances" lang="language">
+		<ru>Even chances:</ru>
+		<en>Even chances:</en>
+	</text>
+	<text id="label_tableselect" lang="language">
+		<ru>выбрать стол</ru>
+		<en>choose the table</en>
+	</text>
+	<text id="label_chatsupport" lang="language">
+		<ru>Служба поддержки</ru>
+		<en>Customer support</en>
+	</text>
+	<text id="label_chatplayer" lang="language">
+		<ru>Игрок</ru>
+		<en>Player</en>
+	</text>
+	<text id="label_onanim" lang="language">
+		<ru>Вкл</ru>
+		<en>On</en>
+	</text>
+	<text id="label_offanim" lang="language">
+		<ru>Выкл</ru>
+		<en>Off</en>
+	</text>
+	<text id="label_anim" lang="language">
+		<ru>Анимация</ru>
+		<en>Animation</en>
+	</text>
+	<text id="label_anim_on" lang="language">
+		<ru>Анимация вкл.</ru>
+		<en>Animation on</en>
+	</text>
+	<text id="label_anim_off" lang="language">
+		<ru>Анимация выкл.</ru>
+		<en>Animation off</en>
+	</text>
+	<text id="button_bonuscoupon" lang="language">
+		<ru>БОНУС КУПОН</ru>
+		<en>BONUS COUPON</en>
+	</text>
+
+
+	<text id="title_loginsocial" lang="language">
+		<ru>Вход через:</ru>
+		<en>Login with:</en>
+	</text>	
+	<text id="title_loginvk" lang="language">
+		<ru>Вход через Вконтакте</ru>
+		<en>Login with Vkontakte</en>
+	</text>		
+	<text id="title_mailforsend" lang="language">
+		<ru>На указанный адрес будет отправлено письмо с Вашим логином и паролем для входа в казино.</ru>
+		<en>We will send a letter with your username and password to login into the casino.</en>
+	</text>	
+	<text id="title_auth" lang="language">
+		<ru>Авторизация игрока</ru>
+		<en>Sign In?</en>
+	</text>
+	<text id="title_remindpassword" lang="language">
+		<ru>Напоминание пароля</ru>
+		<en>Remind password</en>
+	</text>
+	<text id="title_register" lang="language">
+		<ru>Регистрация нового игрока</ru>
+		<en>New player registration</en>
+	</text>
+	<text id="title_profile" lang="language">
+		<ru>Редактирование профиля игрока</ru>
+		<en>Player's profile editing</en>
+	</text>
+	<text id="title_msg" lang="language">
+		<ru>Системное сообщение</ru>
+		<en>System report</en>
+	</text>
+	<text id="title_wait" lang="language">
+		<ru>Пожалуйста, подождите</ru>
+		<en>Please, wait</en>
+	</text>
+	<text id="title_contacts" lang="language">
+		<ru>Контакты</ru>
+		<en>Contacts</en>
+	</text>
+	<text id="title_logout" lang="language">
+		<ru>Выход</ru>
+		<en>Logout</en>
+	</text>
+	<text id="title_news" lang="language">
+		<ru>Новости</ru>
+		<en>News</en>
+	</text>
+	<text id="title_help" lang="language">
+		<ru>Помощь</ru>
+		<en>Help</en>
+	</text>
+	<text id="menu_button_rules" lang="language">
+		<ru>Правила</ru>
+		<en>Rules</en>
+	</text>
+	<text id="title_promo" lang="language">
+		<ru>Промо-акции</ru>
+		<en>Promotions</en>
+	</text>
+	<text id="title_cashier" lang="language">
+		<ru>Касса</ru>
+		<en>Cashier</en>
+	</text>
+	<text id="cash_button_replenish" lang="language">
+		<ru>Пополнить счет</ru>
+		<en>Deposit</en>
+	</text>
+	<text id="cash_button_withdraw" lang="language">
+		<ru>Снять со счета</ru>
+		<en>Withdrawal</en>
+	</text>
+	<text id="cash_button_replenishment" lang="language">
+		<ru>Пополнение счета</ru>
+		<en>Deposit</en>
+	</text>
+	<text id="cash_button_withdrawing" lang="language">
+		<ru>Снятие со счета</ru>
+		<en>Withdrawal</en>
+	</text>
+	
+	<text id="title_onlinesupport" lang="language">
+		<ru>Онлайн поддержка</ru>
+		<en>Online support</en>
+	</text>
+	<text id="title_conditions" lang="language">
+		<ru>Правила и условия</ru>
+		<en>Terms and conditions</en>
+	</text>
+	<text id="title_cashhistory_ok" lang="language">
+		<ru>Успешно</ru>
+		<en>Ok</en>
+	</text>
+	<text id="title_cashhistory_wait" lang="language">
+		<ru>Ожидает</ru>
+		<en>Wait</en>
+	</text>
+	<text id="title_cashhistory_cancel" lang="language">
+		<ru>Отменено</ru>
+		<en>Cancel</en>
+	</text>
+
+
+	<text id="btn_france_bet1" lang="language">
+		<ru>Ставки на Neighbor</ru>
+		<en>Neighbor bets</en>
+	</text>		
+	<text id="btn_france_bet2" lang="language">
+		<ru>Объявить ставки</ru>
+		<en>Set bets</en>
+	</text>	
+	<text id="btn_france_bet3" lang="language">
+		<ru>Поставить ставки</ru>
+		<en>Set bets</en>
+	</text>	
+	<text id="btn_france_bet4" lang="language">
+		<ru>Закрыть</ru>
+		<en>Close</en>
+	</text>	
+	<text id="btn_france_bet5" lang="language">
+		<ru>Изменить ставку</ru>
+		<en>Change bet</en>
+	</text>	
+	<text id="text_neighbor_count" lang="language">
+		<ru>Neighbor</ru>
+		<en>Neighbor</en>
+	</text>	
+	
+
+	<text id="title_Roulette" lang="language">
+		<ru>Европейская</ru>
+		<en>European</en>
+	</text>
+	<text id="title_RouletteUsa" lang="language">
+		<ru>Американская</ru>
+		<en>American</en>
+	</text>
+	<text id="title_Roulette_Pro" lang="language">
+		<ru>Про</ru>
+		<en>Pro</en>
+	</text>
+	<text id="title_RouletteFr" lang="language">
+		<ru>Французская</ru>
+		<en>French</en>
+	</text>
+	<text id="title_OasisPoker" lang="language">
+		<ru>Оазис покер</ru>
+		<en>Oasis poker</en>
+	</text>
+	<text id="title_FiveCardPoker" lang="language">
+		<ru>Пятикарточный покер</ru>
+		<en>Five cards poker </en>
+	</text>
+	<text id="title_Blackjack" lang="language">
+		<ru>Блэкджек</ru>
+		<en>Blackjack</en>
+	</text>
+	<text id="title_BlackjackOne" lang="language">
+		<ru>Одноколодный Блэкджек</ru>
+		<en>Single deck blackjack</en>
+	</text>
+	<text id="title_Baccarat" lang="language">
+		<ru>Баккара</ru>
+		<en>Baccarat</en>
+	</text>
+	
+	<text id="title_CristalDreams" lang="language">
+		<ru>Cristal Dreams</ru>
+		<en>Cristal Dreams</en>
+	</text>
+	<text id="title_WildWildWest" lang="language">
+		<ru>Wild Wild West</ru>
+		<en>Wild Wild West</en>
+	</text>
+	<text id="title_FataMorgana" lang="language">
+		<ru>Fata Morgana</ru>
+		<en>Fata Morgana</en>
+	</text>
+	<text id="title_FruitMachine" lang="language">
+		<ru>Fruit Machine</ru>
+		<en>Fruit Machine</en>
+	</text>
+	
+	<text id="title_Casino" lang="language">
+		<ru>Casino</ru>
+		<en>Casino</en>
+	</text>
+	
+	<text id="title_Astro" lang="language">
+		<ru>Astro</ru>
+		<en>Astro</en>
+	</text>
+	<text id="title_ChineseKitchen" lang="language">
+		<ru>Chinese Kitchen</ru>
+		<en>Chinese Kitchen</en>
+	</text>
+	<text id="title_Shopping" lang="language">
+		<ru>Shopping</ru>
+		<en>Shopping</en>
+	</text>
+	<text id="title_DoubleMagic" lang="language">
+		<ru>Double Magic</ru>
+		<en>Double Magic</en>
+	</text>
+	<text id="title_MrGold" lang="language">
+		<ru>Мистер Голд</ru>
+		<en>Mr. Gold</en>
+	</text>
+	<text id="title_MrsGold" lang="language">
+		<ru>Миссис Голд</ru>
+		<en>Mrs. Gold</en>
+	</text>
+	<text id="title_PhotoSafari" lang="language">
+		<ru>Фото-сафари</ru>
+		<en>Photo Safari</en>
+	</text>
+	<text id="title_Olimpia" lang="language">
+		<ru>Олимпия</ru>
+		<en>Olimpia</en>
+	</text>
+	<text id="title_CleopatraTreasures" lang="language">
+		<ru>Cleopatra Treasures</ru>
+		<en>Cleopatra Treasures</en>
+	</text>
+	<text id="title_AladdinsWishes" lang="language">
+		<ru>Aladdin's Wishes</ru>
+		<en>Aladdin's Wishes</en>
+	</text>
+	<text id="title_LuckyDragon" lang="language">
+		<ru>Lucky Dragon</ru>
+		<en>Lucky Dragon</en>
+	</text>
+	<text id="title_FruitMania" lang="language">
+		<ru>Fruit Mania</ru>
+		<en>Fruit Mania</en>
+	</text>
+	<text id="title_DiamondPalace" lang="language">
+		<ru>Diamond Palace</ru>
+		<en>Diamond Palace</en>
+	</text>
+	<text id="title_CristalLuck" lang="language">
+		<ru>Cristal Luck</ru>
+		<en>Cristal Luck</en>
+	</text>
+	<text id="title_LuckySeven" lang="language">
+		<ru>Lucky 7's</ru>
+		<en>Lucky 7's</en>
+	</text>
+	
+	<text id="title_JacksBetter" lang="language">
+		<ru>Jacks or Better</ru>
+		<en>Jacks or Better</en>
+	</text>
+	<text id="title_DeucesWild" lang="language">
+		<ru>Deuces Wild</ru>
+		<en>Deuces Wild</en>
+	</text>
+	<text id="title_JokerPoker" lang="language">
+		<ru>Joker Poker</ru>
+		<en>Joker Poker</en>
+	</text>
+
+	<text id="title_Keno" lang="language">
+		<ru>Кено</ru>
+		<en>Keno</en>
+	</text>
+
+	<text id="hint_AladdinsWishes" lang="language">
+		<ru>[b][font color='#FF6600']20[/font] линий [br][font color='#00FFFF']5[/font] барабанов [br][font color='#FF99CC']10[/font] бесплатных игр х2[br] Игра на шансы[br]Макс. выигрыш [font color='#FF0000']$2500[/font][/b]</ru>
+		<en>[b][font color='#FF6600']20[/font] lines [br][font color='#00FFFF']5[/font] reels [br][font color='#FF99CC']10[/font] free spins х2[br] Games of odds[br] Max win [font color='#FF0000']$2500[/font][/b]</en>
+	</text>
+	<text id="hint_Astro" lang="language">
+		<ru>[b][font color='#FF6600']20[/font] линий [br][font color='#00FFFF']5[/font] барабанов [br][font color='#FF99CC']10[/font] бесплатных игр х2[br] Игра на шансы[br]Макс. выигрыш [font color='#FF0000']$2500[/font][/b]</ru>
+		<en>[b][font color='#FF6600']20[/font] lines [br][font color='#00FFFF']5[/font] reels [br][font color='#FF99CC']10[/font] free spins х2[br] Games of odds[br] Max win [font color='#FF0000']$2500[/font][/b]</en>
+	</text>
+	<text id="hint_MrGold" lang="language">
+		<ru>[b][font color='#00FF66']1[/font] линия [br][font color='#FFFFFF']3[/font] барабана [br]Макс. выигрыш [font color='#FF0000']$7500[/font][/b]</ru>
+		<en>[b][font color='#00FF66']1[/font] line [br][font color='#FFFFFF']3[/font] reels [br]Max win [font color='#FF0000']$7500[/font][/b]</en>
+	</text>
+	<text id="hint_MrsGold" lang="language">
+		<ru>[b][font color='#00FF66']3[/font] линии [br][font color='#FFFFFF']3[/font] барабана [br]Макс. выигрыш [font color='#FF0000']$2500[/font][/b]</ru>
+		<en>[b][font color='#00FF66']3[/font] line [br][font color='#FFFFFF']3[/font] reels [br]Max win [font color='#FF0000']$2500[/font][/b]</en>
+	</text>
+	
+	<text id="hint_PhotoSafari" lang="language">
+		<ru>[b][font color='#00FF66']1[/font] линия [br][font color='#FFFFFF']3[/font] барабана [br]Макс. выигрыш [font color='#FF0000']$4500[/font][/b]</ru>
+		<en>[b][font color='#00FF66']1[/font] line [br][font color='#FFFFFF']3[/font] reels [br]Max win [font color='#FF0000']$4500[/font][/b]</en>
+	</text>
+	<text id="hint_Casino" lang="language">
+		<ru>[b][font color='#FF6600']20[/font] линий [br][font color='#00FFFF']5[/font] барабанов [br][font color='#FFFFCC']15[/font] бесплатных игр х2[br] Игра на шансы[br]Макс. выигрыш [font color='#FF0000']$2500[/font][/b]</ru>
+		<en>[b][font color='#FF6600']20[/font] lines [br][font color='#00FFFF']5[/font] reels [br][font color='#FFFFCC']15[/font] free spins х2[br] Games of odds[br] Max win [font color='#FF0000']$2500[/font][/b]</en>
+	</text>
+	<text id="hint_ChineseKitchen" lang="language">
+		<ru>[b][font color='#CC66FF']15[/font] линий [br][font color='#00FFFF']5[/font] барабанов [br][font color='#FF99CC']10[/font] бесплатных игр х2[br] Игра на шансы[br]Макс. выигрыш [font color='#FF0000']$2000[/font][/b]</ru>
+		<en>[b][font color='#CC66FF']15[/font] lines [br][font color='#00FFFF']5[/font] reels [br][font color='#FF99CC']10[/font] free spins х2[br] Games of odds[br] Max win [font color='#FF0000']$2000[/font][/b]</en>
+	</text>
+	<text id="hint_CleopatraTreasures" lang="language">
+		<ru>[b][font color='#FF6600']20[/font] линий [br][font color='#00FFFF']5[/font] барабанов [br][font color='#FF99CC']10[/font] бесплатных игр х2[br] Игра на шансы[br]Макс. выигрыш [font color='#FF0000']$2500[/font][/b]</ru>
+		<en>[b][font color='#FF6600']20[/font] lines [br][font color='#00FFFF']5[/font] reels [br][font color='#FF99CC']10[/font] free spins х2[br] Games of odds[br] Max win [font color='#FF0000']$2500[/font][/b]</en>
+	</text>
+	<text id="hint_CristalDreams" lang="language">
+		<ru>[b][font color='#FF6600']20[/font] линий [br][font color='#00FFFF']5[/font] барабанов [br][font color='#FF99CC']10[/font] бесплатных игр х2[br] Игра на шансы[br]Макс. выигрыш [font color='#FF0000']$2500[/font][/b]</ru>
+		<en>[b][font color='#FF6600']20[/font] lines [br][font color='#00FFFF']5[/font] reels [br][font color='#FF99CC']10[/font] free spins х2[br] Games of odds[br] Max win [font color='#FF0000']$2500[/font][/b]</en>
+	</text>
+	<text id="hint_CristalLuck" lang="language">
+		<ru>[b][font color='#00FF66']5[/font] линий [br][font color='#FFFFFF']3[/font] барабана [br]Макс. выигрыш [font color='#FF0000']$500[/font][/b]</ru>
+		<en>[b][font color='#00FF66']5[/font] lines [br][font color='#FFFFFF']3[/font] reels [br]Max win [font color='#FF0000']$500[/font][/b]</en>
+	</text>
+	<text id="hint_DiamondPalace" lang="language">
+		<ru>[b][font color='#CCCCFF']9[/font] линий [br][font color='#00FFFF']5[/font] барабанов [br][font color='#FFFFCC']15[/font] бесплатных игр х2[br] Игра на шансы[br]Макс. выигрыш [font color='#FF0000']$2500[/font][/b]</ru>
+		<en>[b][font color='#CCCCFF']9[/font] lines [br][font color='#00FFFF']5[/font] reels [br][font color='#FFFFCC']15[/font] free spins х2[br] Games of odds[br] Max win [font color='#FF0000']$2500[/font][/b]</en>
+	</text>
+	<text id="hint_DoubleMagic" lang="language">
+		<ru>[b][font color='#00FF66']5[/font] линий [br][font color='#FFFFFF']3[/font] барабана [br]Макс. выигрыш [font color='#FF0000']$500[/font][/b]</ru>
+		<en>[b][font color='#00FF66']5[/font] lines [br][font color='#FFFFFF']3[/font] reels [br] Max win [font color='#FF0000']$500[/font][/b]</en>
+	</text>
+	<text id="hint_FataMorgana" lang="language">
+		<ru>[b][font color='#CCCCFF']9[/font] линий [br][font color='#00FFFF']5[/font] барабанов [br][font color='#FFFFCC']15[/font] бесплатных игр х2[br] Игра на шансы[br]Макс. выигрыш [font color='#FF0000']$2500[/font][/b]</ru>
+		<en>[b][font color='#CCCCFF']9[/font] lines [br][font color='#00FFFF']5[/font] reels [br][font color='#FFFFCC']15[/font] free spins х2[br] Games of odds[br] Max win [font color='#FF0000']$2500[/font][/b]</en>
+	</text>
+	<text id="hint_FruitMachine" lang="language">
+		<ru>[b][font color='#00FF66']5[/font] линий [br][font color='#FFFFFF']3[/font] барабана [br] Макс. выигрыш [font color='#FF0000']$500[/font][/b]</ru>
+		<en>[b][font color='#00FF66']5[/font] lines [br][font color='#FFFFFF']3[/font] reels [br] Max win [font color='#FF0000']$500[/font][/b]</en>
+	</text>
+	<text id="hint_FruitMania" lang="language">
+		<ru>[b][font color='#CC66FF']15[/font] линий [br][font color='#00FFFF']5[/font] барабанов [br][font color='#FFFFCC']15[/font] бесплатных игр х2[br] Игра на шансы[br]Макс. выигрыш [font color='#FF0000']$2000[/font][/b]</ru>
+		<en>[b][font color='#CC66FF']15[/font] lines [br][font color='#00FFFF']5[/font] reels [br][font color='#FFFFCC']15[/font] free spins х2[br] Games of odds[br] Max win [font color='#FF0000']$2000[/font][/b]</en>
+	</text>
+	<text id="hint_LuckyDragon" lang="language">
+		<ru>[b][font color='#CC66FF']15[/font] линий [br][font color='#00FFFF']5[/font] барабанов [br][font color='#FFFFCC']15[/font] бесплатных игр х2[br] Игра на шансы[br]Макс. выигрыш [font color='#FF0000']$2000[/font][/b]</ru>
+		<en>[b][font color='#CC66FF']15[/font] lines [br][font color='#00FFFF']5[/font] reels [br][font color='#FFFFCC']15[/font] free spins х2[br] Games of odds[br] Max win [font color='#FF0000']$2000[/font][/b]</en>
+	</text>
+	<text id="hint_LuckySeven" lang="language">
+		<ru>[b][font color='#00FF66']5[/font] линий [br][font color='#FFFFFF']3[/font] барабана [br]Макс. выигрыш [font color='#FF0000']$500[/font][/b]</ru>
+		<en>[b][font color='#00FF66']5[/font] lines [br][font color='#FFFFFF']3[/font] reels [br] Max win [font color='#FF0000']$500[/font][/b]</en>
+	</text>
+	<text id="hint_Shopping" lang="language">
+		<ru>[b][font color='#CCCCFF']9[/font] линий [br][font color='#00FFFF']5[/font] барабанов [br][font color='#FFFFCC']15[/font] бесплатных игр х2[br] Игра на шансы[br]Макс. выигрыш [font color='#FF0000']$2500[/font][/b]</ru>
+		<en>[b][font color='#CCCCFF']9[/font] lines [br][font color='#00FFFF']5[/font] reels [br][font color='#FFFFCC']15[/font] free spins х2[br] Games of odds[br] Max win [font color='#FF0000']$2500[/font][/b]</en>
+	</text>
+	<text id="hint_WildWildWest" lang="language">
+		<ru>[b][font color='#CC66FF']15[/font] линий [br][font color='#00FFFF']5[/font] барабанов [br][font color='#FFFFCC']15[/font] бесплатных игр х2[br] Игра на шансы[br]Макс. выигрыш [font color='#FF0000']$2000[/font][/b]</ru>
+		<en>[b][font color='#CC66FF']15[/font] lines [br][font color='#00FFFF']5[/font] reels [br][font color='#FFFFCC']15[/font] free spins х2[br] Games of odds[br] Max win [font color='#FF0000']$2000[/font][/b]</en>
+	</text>
+	<text id="hint_Olimpia" lang="language">
+		<ru>[b][font color='#FF6600']20[/font] линий [br][font color='#00FFFF']5[/font] барабанов [br][font color='#FFFFCC']15[/font] бесплатных игр х2[br] Игра на шансы[br]Макс. выигрыш [font color='#FF0000']$2500[/font][/b]</ru>
+		<en>[b][font color='#FF6600']20[/font] lines [br][font color='#00FFFF']5[/font] reels [br][font color='#FFFFCC']15[/font] free spins х2[br] Games of odds[br] Max win [font color='#FF0000']$2500[/font][/b]</en>
+	</text>
+	<text id="hint_tName" lang="language">
+		<ru>Пожалуйста, укажите настоящие имя и фамилию</ru>
+		<en>Please enter your full name</en>
+	</text>
+	<text id="hint_tPhone" lang="language">
+		<ru>Пожалуйста, введите Ваш телефонный номер в международном формате</ru>
+		<en>Please enter your phone number in international format</en>
+	</text>
+	<text id="hint_tCity" lang="language">
+		<ru>Пожалуйста, введите Ваш город </ru>
+		<en>Please enter your city</en>
+	</text>
+	
+	
+	<text id="title_honesty_control" lang="language">
+		<ru>КОНТРОЛЬ ЧЕСТНОСТИ ВО ВСЕХ ИГРАХ В РЕЖИМЕ ФАН И РЕАЛ</ru>
+		<en>HONESTY CONTROL IN ALL GAMES INCLUDING REAL AND FAN MODE</en>
+	</text>
+	
+	<text id="title_cashierbonus_history" lang="language">
+		<ru><![CDATA[История бонусов]]></ru>
+		<en><![CDATA[Bonus history]]></en>
+	</text>
+	<text id="title_cashierhistory" lang="language">
+		<ru><![CDATA[История финансовых операций]]></ru>
+		<en><![CDATA[Financial  history]]></en>
+	</text>
+	<text id="title_gamehistory" lang="language">
+		<ru><![CDATA[История игр]]></ru>
+		<en><![CDATA[Game history]]></en>
+	</text>
+	<text id="title_cashierbonus" lang="language">
+		<ru><![CDATA[Бонус - ]]></ru>
+		<en><![CDATA[Bonus - ]]></en>
+	</text>
+	<text id="label_timedate" lang="language">
+		<ru><![CDATA[Дата и время]]></ru>
+		<en><![CDATA[Date and time]]></en>
+	</text>
+	<text id="label_bonusaccount" lang="language">
+		<ru><![CDATA[Бонус]]></ru>
+		<en><![CDATA[Bonus]]></en>
+	</text>
+	<text id="label_paysystem" lang="language">
+		<ru><![CDATA[Система]]></ru>
+		<en><![CDATA[System]]></en>
+	</text>
+	<text id="label_status" lang="language">
+		<ru><![CDATA[Статус]]></ru>
+		<en><![CDATA[Status]]></en>
+	</text>
+	<text id="label_bonus_bets" lang="language">
+		<ru><![CDATA[Ставки:]]></ru>
+		<en><![CDATA[Bets:]]></en>
+	</text>
+	<text id="label_bonus_wager" lang="language">
+		<ru><![CDATA[Отыгрыш:]]></ru>
+		<en><![CDATA[Wager:]]></en>
+	</text>
+	<text id="label_bonus_status" lang="language">
+		<ru><![CDATA[Статус:]]></ru>
+		<en><![CDATA[Status:]]></en>
+	</text>
+	<text id="label_cashbefore" lang="language">
+		<ru><![CDATA[Счет]]></ru>
+		<en><![CDATA[Account]]></en>
+	</text>
+	<text id="label_cashchange" lang="language">
+		<ru><![CDATA[Изменения]]></ru>
+		<en><![CDATA[Changes]]></en>
+	</text>
+	<text id="label_cashresult" lang="language">
+		<ru><![CDATA[Результат]]></ru>
+		<en><![CDATA[Result]]></en>
+	</text>
+	<text id="label_selectgame" lang="language">
+		<ru><![CDATA[Выберите игру:]]></ru>
+		<en><![CDATA[Select the game:]]></en>
+	</text>
+	<text id="label_logbet" lang="language">
+		<ru><![CDATA[Ставка]]></ru>
+		<en><![CDATA[Bet]]></en>
+	</text>
+	<text id="label_logwin" lang="language">
+		<ru><![CDATA[Выигрыш]]></ru>
+		<en><![CDATA[Winning]]></en>
+	</text>
+	<text id="label_logcash" lang="language">
+		<ru><![CDATA[Баланс]]></ru>
+		<en><![CDATA[Balance]]></en>
+	</text>
+	<text id="label_md5" lang="language">
+		<ru><![CDATA[MD5 последовательности]]></ru>
+		<en><![CDATA[MD5]]></en>
+	</text>	
+	
+	<text id="label_authhint1" lang="language">
+		<ru>Если Вы зарегистрированы, введите данные:</ru>
+		<en>If you are registered, enter your data:</en>
+	</text>	
+	<text id="label_authhint2" lang="language">
+		<ru>Если Вы еще не зарегистрированы, то пройдите, пожалуйста, процедуру регистрации.</ru>
+		<en>If you are not registered yet, please pass registration procedure.</en>
+	</text>	
+	
+	<text id="text_maingame" lang="language">
+		<ru>Основная игра</ru>
+		<en>Main game</en>
+	</text>	
+	<text id="text_chancegame" lang="language">
+		<ru>Игра на шансы</ru>
+		<en>Chance game</en>
+	</text>	
+	<text id="text_freegame" lang="language">
+		<ru>Бесплатные вращения</ru>
+		<en>Free spins</en>
+	</text>	
+	<text id="text_balance" lang="language">
+		<ru>Баланс</ru>
+		<en>Balance</en>
+	</text>		
+	<text id="text_win_s" lang="language">
+		<ru>Выигрыш</ru>
+		<en>Win</en>
+	</text>
+	<text id="msg_nas_been_sent" lang="language">
+		<ru>Ваше сообщение отправлено</ru>
+		<en>Your message has been sent</en>
+	</text>
+	<text id="text_puremoney_error" lang="language">
+		<ru>Извините, но на вашем счету недостаточно средств для совершения данной ставки.</ru>
+		<en>You don't have  enough money on your balance to place desired bet</en>
+	</text>
+	<text id="text_transin_accepted_BonusCoupon" lang="language">
+		<ru>Бонус купон активирован.</ru>
+		<en>Bonus coupon is activated.</en>
+	</text>
+	<text id="text_contactbrief" lang="language">
+		<ru>Наша служба поддержки работает в режиме 24/7. В любую минуту на все ваши вопросы мы с радостью готовы ответить в нашем [a href="asfunction:_root.gotoSite"][u]Онлайн чате[/u][/a].
+По телефону:
++44 20 3239 8764 Англия, Лондон
++499 346 0 345 Россия, Москва
+По электронной почте:
+[a href="mailto:support@cristalpalaceonline.com"][u]support@cristalpalaceonline.com[/u][/a]</ru>
+		<en>Our support team works in 24/7 mode. We are glad to answer Your questions in any time in casino [a href="asfunction:_root.gotoSite"][u]live chat[/u][/a].
+
+By e-mail:
+[a href="mailto:support@cristalpalaceonline.com"][u]support@cristalpalaceonline.com[/u][/a]</en>
+	</text>
+	<text id="text_contactfull" lang="language">
+<ru><![CDATA[Интернет казино #casino_name принадлежит компании [b]ATTIVATA HOLDING Ltd.[/b]
+
+[b]Юридический адрес:[/b] Griva Digeni 87-89, Nicolaou & Zavos centre, Office 101, Cy 3101, Limassol, Cyprus.
+
+[b]Телефон:[/b]
++7 812 309 05 52]]></ru>
+		<en><![CDATA[Online casino #casino_name is owned by [b]ATTIVATA HOLDING Ltd[/b].
+
+[b]Registered office:[/b] Griva Digeni 87-89, Nicolaou & Zavos centre, Office 101, Cy 3101, Limassol, Cyprus.
+
+
+Using our e-mails, You can get straightaway answer:]]></en>
+	</text>
+	<text id="text_conditionsfull" lang="language">
+		<ru>Общие положения
+
+К одному физическому адресу может относиться один и только один счет для игры на реальные деньги в Казино.
+Несовпадение имени владельца счета в казино и имени держателя кредитной карты, задействованной в процессе оплаты, делает дальнейший финансовый процесс невозможным. Имя владельца счета в Казино должно совпадать с именем владельца кредитной карты.
+Администрация Казино тщательно проверяет подозрительные внесения денег на счет.
+Отдел промо-акций Казино является единственной стороной, участвующей в разработке, реализации и регулировании промо-предложений. Казино оставляет за собой право по собственному усмотрению прекращать или отменять текущие акции без предварительного предупреждения. Игрок, отклоняющийся или нарушающий правила и условия проведения промо-акций Казино, будет дисквалифицирован.
+Доступ в Казино сотрудников Казино, сотрудников партнерских программ Казино и провайдеров смежных с деятельностью Казино услуг, является запрещенным и рассматривается как мошенничество. Данное правило в равной степени распространяется на семьи вышеперечисленных сотрудников.
+Для доступа в Казино игроку должно быть полных 18 лет.
+Игрок не должен разделять свой счет с посторонним лицом, как и не должен разрешать третьим лицам участвовать в игре, которая ведется с использованием счета Игрока.
+Каждая норма, регулирующая проведение промо-акций, является отдельной от остальных норм и правил единицей. При отсутствии либо обнаружении непригодности какой-либо отдельной нормы по каким-либо причинам, остальные правила и нормы продолжают оставаться в силе.
+Минимальная сумма для снятия средств $10, выплаты производятся в течение пяти (5) банковских дней с 9 до 18 по GMT.
+Игрок может производить изъятие средств на сумму, не более чем $9,600 в месяц. Если сумма изъятия более $9,600, оставшаяся сумма будет возвращенна на счет игрока; изъять эту сумму игрок может в течение следующего месяца в соответствии с данным условием. Всё вышеупомянутое относится также к изъятиям возрастающих джекпотов.
+
+Участие в Казино
+
+Использование игорного сервиса в сети находится в зоне осознанного выбора и ответственности игрока за возможные риски. Игрок, начиная пользоваться игорным сервисом, демонстрирует свое принципиальное понимание и согласие с фактом присутствия денежного риска.
+Игрок является единственной стороной, ответственной за законность своего потребления игорного сервиса в рамках законодательной базы государства, гражданином которого он является. Совершая ставку реальными деньгами, игрок тем самым дает Казино подтверждение и гарантию того, что это разрешено в рамках юрисдикции государства, резидентом которого он является. Казино не ручается за законность использования игорного сервиса игроком и не несет ответственности за нарушения игроком вышеназванных норм и правил.
+К игре в Казино допускаются пользователи, достигшие 18-летнего возроста или возраста, установленного иной юрисдикцией, которой подчинен конкретный игрок. Казино оставляет за собой право в любой момент запросить у игрока подтверждение возраста. Если подтверждение не было предоставлено или возраст пользователя оказался ниже установленного порога, мы делаем дальнейшее пребывание данного пользователя в Казино невозможным.
+Если мы выясняем, что возраст игрока, выигравшего в нашем Казино, ниже установленного уровня, выигрыш не выплачивается, а первоначальный депозит возвращается игроку.
+
+Правила Бонусной Политики
+
+Один игрок (один e-mail, один номер кредитной карты, одна дислокация компьютера, с которого производится игра) может участвовать в каждой из промо-акций только один раз.
+Игроку разрешается иметь только один действующий счет в Казино. Если администрацией выявлено, что игроку принадлежит более одного счета, все текущие выигрыши будут отменены.
+Если администрацией Казино обнаруживается несоответствие имени владельца счета в Казино и имени держателя кредитной карты, с помощью которой проводилась оплата, все выигрыши такого игрока будут аннулированы.
+Для участия игрока в программе Пригласить друга, приглашаемая сторона должна соответствовать всем перечисленным выше требованиям.
+Промо-рассылка Казино на e-mail игрока предназначается только адресату и не может быть перенаправлена иному пользователю. Если получатель рассылки не является владельцем счета в Казино, все описанные в рассылке предложения являются недействительными.
+Казино оставляет за собой право изменять содержание промо-акций, а также условия их проведения без предварительного предупреждения.
+Бонусы, поступившие на счет игрока, но не использованные в течение двух месяцев с момента начисления, будут аннулированы. Бонус считается однажды использованным в случае реализации игроком установленных требований по отыгрышу данного бонуса.
+В случае выигрыша, размер которого рассматривается администрацией Казино как достойный огласки, игрок дает свое принципиальное согласие на участие в возможных тематических мероприятиях. Казино, в свою очередь, гарантирует полную безопасность игрока и конфиденциальность информации о нем.
+Бонус на регистрацию начисляется в момент открытия счета игрока. Если счет был открыт, но игрок не пользовался им на протяжении периода, не превышающего допустимый, бонус на регистрацию сохраняется.
+
+Режим Ожидания счета
+
+Счет игрока классифицируется как вошедший в спящий режим в случае необращения к счету в течение минимум 6 календарных месяцев со дня проведения последней операции со счетом (внесение депозита, совершение ставки).
+В случае вхождения счета игрока в спящий режим, администрация Казино посылает на e-mail игрока уведомление о текущем балансе на его счету, исключая неотыгранные бонусы.
+На возврат баланса счета в Казино игроку дается 30 дней с момента получения уведомительного письма. Если за названый период игрок не делает запрос по поводу возврата остатка со своего счета, вся сумма баланса переходит в Казино.
+Однако, если игрок обнаруживает, что его счет был закрыт, а остаточный баланс — аннулирован согласно вышеупомянутым условиям, он может выразить запрос о возврате оставшихся на счете денег в письменном обращении к Казино. Казино рассматривает запрос и принимает решение относительно возврата либо не возврата названной суммы игроку. Решение Казино по этому вопросу является окончательным и обязательным.
+Бонусы, не отыгранные в течение 30 дней с момента поступления на счет игрока, будут аннулированы.
+
+Реклама и работа с общественностью
+
+В случае, если игрок выигрывает в Казино сумму денег или иной ценный приз, чья ценность оценивается администрацией Казино как достойная огласки, игрок гарантирует Казино возможность использования своего имени, фамилии и псевдонима в пресс-релизах и/или рекламных материалах. Также игрок дает принципиальное согласие на приемлемую для игрока форму участия в возможных тематических мероприятиях, организованных Казино и полностью оплачиваемых Казино.
+Время от времени Казино проводит промо-акции и конкурсы. Каждая акция или конкурс имеет собственные правила в рамках общих Правил Казино. В случае вхождения в конфликт Правил Казино с Правилами конкретной акции или конкурса, Правила конкурса сохраняют свою силу, но только на время проведения акции или конкурса.
+Если администрация Казино подозревает игрока в мошенничестве или недобросовестном использовании нашей бонусной политики, Казино оставляет за собой право отказать игроку в бонусе или аннулировать бонус со счета игрока. В подобном случае Казино также по своему усмотрению может ограничить вход игрока в Казино и/или заморозить или блокировать его счет.</ru>
+
+
+		<en>1. Definitions
+
+The following words and terms are used in the present contract and have the following meanings unless the context requires otherwise:
+
+“#casino_name Casino” is our gambling system used by the instrumentality of the internet, on the site www.CristalPalaceOnline.com, and also its respective services and gambling actions as they are offered and listed. Hereinafter referred to as “the casino”;
+
+“Laws in force” is any law and rule concerning online gambling and access to the casino and the same with deposits in the casino and any withdrawals made from it and which are applicable to you in your country of residence, if it is any other country from the country where you are carrying out such activity and which are applicable to you;
+
+“Deposits” are any sums transferred by you from your Player’s Account;
+
+“Player’s Account” is one person’s individual account relating to one person, opened by this person and used together with us to enable this person to play in the casino;
+
+“We / Us/ Our” - www.CristalPalaceOnline.com
+
+“Winnings” are any winnings of the Player’s Account holder in case he plays for money in the casino;
+
+“Login and password” are login (user’s name) and password chosen by the individual during registration in the casino;
+
+“Withdrawal” is any transfer of sums of money made by you from your Player’s Account;
+
+“Bonus” is a monetary means of encouragement and motivation for the players on the part of Casino;
+
+“You” is Player, user of #casino_name Casino.
+
+2. Subject of the contract
+
+The present contract contains agreements between you and us concerning your use of the casino for gambling with real or virtual money as the case may be.
+
+3. General provisions
+
+Mismatch for the account holder’s name in the casino and the name of credit card holder involved in a payment makes further financial processing impossible. The name of the account holder in the casino should coincide with the name of the credit card holder;
+
+The casino administration carefully checks suspicious deposits of money to the Player’s Account;
+
+The promo actions department of the casino is the only party participating in development, realization and regulation of promo offers. The casino reserves the right to stop or cancel current actions by its own discretion without prior notice. The player who digresses or breaches the rules and conditions of Casino promo actions will be disqualified;
+
+Access to the casino by the casino employees, employees of the casino partner programs and providers of services adjacent to the Casino activity, is forbidden and is considered as fraudulent. This rule is also applicable to the families of the above-listed employees;
+
+To get access to the casino, the player should be of full legal age pursuant to the laws in force;
+
+The player undertakes to personally use his Player’s Account and not transfer the right of use /disposal of the Player’s Account to third parties;
+
+In case the player detects illegitimate use of Player’s Account by third parties, the player undertakes within one day from the detection of such illegitimate use, to notify the casino about the illegitimate use of the Player’s Account by third persons;
+
+Each normal regulating promo action is a separate unit from other norms and rules. In case of lack of capacity of any separate norm for any reason other rules and norms shall remain in force;
+
+The minimal sum for withdrawal is $10 and payments shall be made within 5 banking days from 9 till 18 GMT;
+
+The player is entitled to withdraw money in the amount that does not exceed $9,600 per month in weekly equal parts ($2,400 per week). If the withdrawn sum is more than $9,600, the remained sum will be returned to the Players Account. The player can withdraw this sum within the next month according to these conditions.
+
+4. Participation in the Casino
+
+Use of the internet gambling service is a conscious choice and the player’s responsibility for possible risk. The player upon starting to use a gambling service shows his understanding and consents to the possibility of risking money.
+
+The player is the only party responsible for the legality of a gambling service use within the legislative base of the province which the citizen is in. Bidding with real money the player gives the casino the confirmation and guarantee that it is authorized within the framework of the jurisdiction. The casino does not guarantee legality of its gambling service used by the player and is not responsible for the breach of afore said norms and rules by the player;
+
+The users who have attained the age of majority according to the laws in force are only admitted to gambling in the casino. The casino reserves the right to request at any time the player to confirm his age. If such confirmation has not been given or the user’s age turns out to be below the established threshold, we make further visits for such user in the casino impossible;
+
+In no event and under no circumstance can you use the casino if you are under 18 years old.
+
+If we find out that the age of the player who won in our casino is under the established level winnings are not to be paid out and the initial deposit is refunded to the Player;
+
+If the Casino has paid winnings to the player and afterwards it becomes known to the casino that this winning has been received by the player fraudulently (by fraud and/or stealage in relation to the Casino or the third parties and/or by use of the third gambling software) the casino reserves the right to address its complaints in corresponding law enforcement agencies and make a formal application to initiate criminal proceedings in the commission of crimes, and to refer the matter to the court with the statement of claim for recovery of damage caused by a crime committed in relation to the casino and/or the third parties.
+
+5. Advertising and public relations
+
+In case the player wins the sum of money or other valuable prize at the Casino, which value is estimated by the casino administration as deserving publicity, the player guarantees the casino the opportunity to use his name, surname and nickname in press releases and/or promotional materials. The player gives his consent to sign the participation form acceptable to the player in possible theme events organized by the casino and completely paid by the casino.
+
+From time to time the casino organizes promo actions and competitions. Each action or competition has its own rules within the framework of the general rules of the casino. In case of a variance between the casino’s rules and the rules of certain action or competition, the rules of competition remain valid, but only for the period of action or competition.
+
+If the casino administration suspects the player of a fraud or unfair use of our bonus policy, the casino reserves the right to refuse bonuses to the player or to cancel the bonus from the player’s account. In such a case the casino also at its own discretion can limit the player’s entrance to the casino and/or freeze or block his Player’s Account.</en>
+	</text>
+	<text id="text_remindpassword" lang="language">
+		<ru>Если Вы забыли свой логин или пароль, введите адрес электронной почты, указанный Вами при регистрации. Данные будут высланы на него.</ru>
+		<en>Please, enter the e-mail which was used for registration in the casino.</en>
+	</text>
+	<text id="text_remindsent" lang="language">
+		<ru>Пароль и логин были высланы на указанный Вами адрес электронной почты #email.</ru>
+		<en>Password and login name were sent on #email.</en>
+	</text>
+	<text id="text_waitserver" lang="language">
+		<ru>Производится обмен данными с сервером.</ru>
+		<en>Data exchange with server.</en>
+	</text>
+	<text id="text_authwait" lang="language">
+		<ru>Подождите, производится авторизация.</ru>
+		<en>Authorization. Please, wait.</en>
+	</text>
+	<text id="text_authdone" lang="language">
+		<ru>Авторизация игрока успешно проведена.</ru>
+		<en>Player's authorization was completed successfully.</en>
+	</text>
+	<text id="text_regwait" lang="language">
+		<ru>Подождите, производится регистрация нового игрока.</ru>
+		<en>New player registration. Please, wait.</en>
+	</text>
+	<text id="text_regdone" lang="language">
+		<ru>Регистрация нового игрока успешно завершена.</ru>
+		<en>New player registration was completed successfully.</en>
+	</text>
+	<text id="text_editwait" lang="language">
+		<ru>Подождите, идет сохранение данных.</ru>
+		<en>Saving data. Please, wait.</en>
+	</text>
+	<text id="text_editdone" lang="language">
+		<ru>Изменение регистрационных данных успешно завершено.</ru>
+		<en>Change of registration data was completed successfully.</en>
+	</text>
+	<text id="text_moneydeposit" lang="language">
+		<ru>Платеж на сумму #cash зачислен на Ваш счет.</ru>
+		<en>Payment amounted #cash was received on Your account.</en>
+	</text>
+	<text id="text_moneydepositbonus" lang="language">
+		<ru>На Ваш счет зачислен платеж в размере #cash, в том числе бонус в размере #bonus.</ru>
+		<en>Payment amounted #cash, including bonus #bonus was received on Your account.</en>
+	</text>
+	<text id="text_moneydepositbonuspoints" lang="language">
+		<ru>Отыгранные комп-поинты на сумму #cash зачислены на Ваш счет.</ru>
+		<en>Wagered comp points amounted #cash was received on Your account.</en>
+	</text>
+	<text id="text_moneydepositbonuspointsbonus" lang="language">
+		<ru>Комп-поинты на сумму #cash зачислены на Ваш счет, в том числе бонус в размере #bonus.</ru>
+		<en>Comp points amonted #cash, including bonus #bonus was received on Your account.</en>
+	</text>
+	<text id="text_moneydepositfriendinvite" lang="language">
+		<ru>Премия за привлечение друга в размере #cash зачислена на Ваш счет.</ru>
+		<en>Invitation bonus amounted #cash was received on Your account.</en>
+	</text>
+	<text id="text_moneydepositfriendinvitebonus" lang="language">
+		<ru>За привлечение друга на Ваш счет зачислено #cash, в том числе бонус в размере #bonus.</ru>
+		<en>Invitation bonus amounted #cash, including bonus #bonus was received on Your account.</en>
+	</text>
+	<text id="text_moneywithdraw" lang="language">
+		<ru>Сумма #cash списана с Вашего счета.</ru>
+		<en>Amount #cash was charged off from Your account.</en>
+	</text>
+	<text id="text_moneyfundeposit" lang="language">
+		<ru>Ваш виртуальный счет был пополнен на #cash единиц.</ru>
+		<en>Your virtual account was replenished on #cash.</en>
+	</text>
+	<text id="text_moneyfundepositnum" lang="language">
+		<ru>Ваш виртуальный счет был пополнен на #cash единиц. Осталось доступных автопополнений: #n </ru>
+		<en>Your virtual account was replenished on #cash. You have #n auto replenishments more</en>
+	</text>
+	<text id="text_moneyfundepositend" lang="language">
+		<ru>Ваш виртуальный счет был пополнен на #cash единиц. Ваши автопополнения исчерпаны. Чтобы узнать, как пополнить виртуальный счет, пройдите в раздел /Помощь-FAQ's/ лобби казино</ru>
+		<en>Your virtual account was replenished on #cash. Your auto replenishments were play out. In order to find out, how to replenish Your virtual account, please, go to the button/Help-FAQ's/, Casino lobby</en>
+	</text>
+	<text id="text_moneyfundepositdate" lang="language">
+		<ru>Ваш виртуальный счет был пополнен на #cash единиц за Депозит от #date</ru>
+		<en>Your virtual account was replenished on #cash for Deposit from #date</en>
+	</text>
+	<text id="text_moneyfunwithdraw" lang="language">
+		<ru>С Вашего виртуального счета было списано #cash единиц</ru>
+		<en>Amount #cash was charged off from Your virtual account</en>
+	</text>	
+	<text id="text_moneywithdrawcancel" lang="language">
+		<ru><![CDATA[Транзакция отменена. Обратитесь в  <a href="asfunction:_root.gotoSite"><u><b>чат службы поддержки</b></u></a>.]]></ru>
+		<en>Transaction has been canceled.</en>
+	</text>
+	<text id="text_currencygame" lang="language">
+		<ru>Для смены игровой валюты перейдите в лобби.</ru>
+		<en>To change game currency, please, switch to lobby.</en>
+	</text>
+	<text id="text_currencyfun" lang="language">
+		<ru>Вы перешли в режим игры на виртуальные деньги.</ru>
+		<en>You chose virtual money mode.</en>
+	</text>
+	<text id="text_currencyreal" lang="language">
+		<ru>Вы перешли в режим игры на реальные деньги.</ru>
+		<en>You chose real money mode.</en>
+	</text>
+	<text id="text_currencyunchange" lang="language">
+		<ru>Сервер отклонил запрос на смену игровой валюты.</ru>
+		<en>Server denied request on changing currency.</en>
+	</text>
+	<text id="text_complete_profile" lang="language">
+		<ru>Для того, чтобы Вы могли начать игру на реальные деньги, необходимо заполнить дополнительную информацию в профиле игрока.</ru>
+		<en>To play real, please complete profile.</en>
+	</text>
+	<text id="text_wellcome" lang="language">
+		<ru>Добро пожаловать в онлайн казино #casino_name!
+Желаем Вам приятной игры!</ru>
+		<en>Welcome to the online casino #casino_name!
+Have a pleasant game!</en>
+	</text>
+	<text id="text_nomoney_" lang="language">
+		<ru>На Вашем счету недостаточно средств для совершения желаемой ставки. Пожалуйста, пополните Ваш счет и повторите попытку.</ru>
+		<en>Your have not enough money. Please update your account and try again.</en>
+	</text>
+	<text id="text_nomoney" lang="language">
+		<ru>На Вашем счету недостаточно средств для совершения желаемой ставки. Пожалуйста, пополните Ваш счет и повторите попытку.</ru>
+		<en>Your have not enough money. Please update your account and try again.</en>
+	</text>
+	
+	
+	<text id="text_bonus_status_wait" lang="language">
+		<ru><![CDATA[В очереди]]></ru>
+		<en><![CDATA[wait]]></en>
+	</text>
+	<text id="text_bonus_status_active" lang="language">
+		<ru><![CDATA[Активный]]></ru>
+		<en><![CDATA[active]]></en>
+	</text>
+	<text id="text_bonus_status_ok" lang="language">
+		<ru><![CDATA[Отыгран]]></ru>
+		<en><![CDATA[ok]]></en>
+	</text>
+	<text id="text_bonus_status_cancel" lang="language">
+		<ru><![CDATA[Списан]]></ru>
+		<en><![CDATA[cancel]]></en>
+	</text>	
+	
+	<text id="text_bonus_details_logon" lang="language">
+		<ru><![CDATA[Чтобы получать/не получать бонусы обратитесь в чат службы поддержки.<br><br>Внимание! В случае отказа от бонусов ваш текущий баланс будет уменьшен на сумму не отыгранных бонусов.]]></ru>
+		<en><![CDATA[To receive/not receive bonuses please contact customer support.<br><br>Attention! In case of cancellation of bonuses your current balance will be reduced by an amount not complete the bonus.]]></en>
+	</text>
+	<text id="soundm_music" lang="language">
+		<ru>Музыка</ru>
+		<en>Music</en>
+	</text>
+	<text id="soundm_radio" lang="language">
+		<ru>Радио</ru>
+		<en>Radio</en>
+	</text>
+	<text id="soundm_sound_onoff" lang="language">
+		<ru>Звуки вкл/выкл</ru>
+		<en>Sounds on/off</en>
+	</text>
+	<text id="soundm_music_onoff" lang="language">
+		<ru>Музыка вкл/выкл</ru>
+		<en>Music on/off</en>
+	</text>
+	
+
+	<text id="game_mode_real" lang="language">
+		<ru>Реальные деньги</ru>
+		<en>Game mode</en>
+	</text>
+
+	<text id="game_mode_virtual" lang="language">
+		<ru>Виртуальные деньги</ru>
+		<en>Virtual money</en>
+	</text>
+	<text id="play_mode_real" lang="language">
+		<ru>Играть на деньги</ru>
+		<en>Play for real</en>
+	</text>
+
+	<text id="play_mode_virtual" lang="language">
+		<ru>Играть на фантики</ru>
+		<en>Play for fun</en>
+	</text>
+	<text id="game_mode_topic" lang="language">
+		<ru>Режим игры</ru>
+		<en>Real money</en>
+	</text>
+	<text id="lobby_menu_roulette" lang="language">
+		<ru>Рулетка</ru>
+		<en>Roulette</en>
+	</text>
+	<text id="lobby_menu_blackjack" lang="language">
+		<ru>Блэкджек</ru>
+		<en>Blackjack</en>
+	</text>
+	<text id="lobby_menu_cards" lang="language">
+		<ru>Карты</ru>
+		<en>Cards</en>
+	</text>
+	<text id="lobby_menu_poker" lang="language">
+		<ru>Покер</ru>
+		<en>Poker</en>
+	</text>
+	<text id="lobby_menu_slots" lang="language">
+		<ru>Слот-автоматы</ru>
+		<en>Slot machines</en>
+	</text>
+	<text id="lobby_menu_videopoker" lang="language">
+		<ru>Видеопокеры</ru>
+		<en>Videopokers</en>
+	</text>
+	<text id="lobby_menu_keno" lang="language">
+		<ru>Кено</ru>
+		<en>Keno</en>
+	</text>
+	<text id="text_collect" lang="language">
+		<ru>ЗАБРАТЬ</ru>
+		<en>COLLECT</en>
+	</text>
+
+
+
+
+
+	<text id="menu_button_enter" lang="language">
+		<ru>Войти</ru>
+		<en>Enter</en>
+	</text>
+	<text id="menu_button_register" lang="language">
+		<ru>Регистрация</ru>
+		<en>Sign Up</en>
+	</text>
+	<text id="menu_button_profile" lang="language">
+		<ru>Личный Кабинет</ru>
+		<en>Personal Profile</en>
+	</text>
+	<text id="menu_button_chat" lang="language">
+		<ru>Чат</ru>
+		<en>Chat</en>
+	</text>
+	<text id="menu_button_cashier" lang="language">
+		<ru>КАССА</ru>
+		<en>CASHIER</en>
+	</text>
+	<text id="menu_button_promo" lang="language">
+		<ru>Акции</ru>
+		<en>Promotions</en>
+	</text>
+	<text id="menu_button_exit" lang="language">
+		<ru>Лобби</ru>
+		<en>Lobby</en>
+	</text>
+	<text id="menu_button_back" lang="language">
+		<ru>Назад в лобби</ru>
+		<en>Return to lobby</en>
+	</text>
+	<text id="menu_button_help" lang="language">
+		<ru>Помощь</ru>
+		<en>Help</en>
+	</text>
+	<text id="menu_button_contact" lang="language">
+		<ru>Контакты</ru>
+		<en>Contacts</en>
+	</text>
+	<text id="menu_text_real" lang="language">
+		<ru>Real</ru>
+		<en>Real</en>
+	</text>
+	<text id="menu_text_fun" lang="language">
+		<ru>Fun</ru>
+		<en>Fun</en>
+	</text>
+
+	<text id="menu_all_slots" lang="language">
+		<ru>Все слот-автоматы</ru>
+		<en>All slots</en>
+	</text>
+	<text id="menu_three_reel" lang="language">
+		<ru>3-х барабанные слот-автоматы</ru>
+		<en>3-reel slots</en>
+	</text>
+	<text id="menu_five_reel" lang="language">
+		<ru>5-ти барабанные слот-автоматы</ru>
+		<en>5-reel slots</en>
+	</text>
+	<text id="menu_popular" lang="language">
+		<ru>Популярные</ru>
+		<en>Popular</en>
+	</text>
+
+	<text id="cmbx_getcountry" lang="language">
+		<ru>Выберите страну ...</ru>
+		<en>Select counrty ...</en>
+	</text>
+	<text id="cmbx_getday" lang="language">
+		<ru>День</ru>
+		<en>Day</en>
+	</text>
+	<text id="cmbx_getmonth" lang="language">
+		<ru>Месяц</ru>
+		<en>Month</en>
+	</text>
+	<text id="cmbx_getyear" lang="language">
+		<ru>Год</ru>
+		<en>Year</en>
+	</text>
+
+	<text id="loader_blockaccount" lang="language">
+		<ru><![CDATA[Ваш аккаунт заблокирован. Обратитесь в <a href="asfunction:_root.gotoSite"><u><b>чат службы поддержки</b></u></a> интернет-казино.]]></ru>
+		<en><![CDATA[Your account has been blocked. Contact <a href="asfunction:_root.gotoSite"><u><b>the customer service chat</b></u></a> online casinos.]]></en>
+	</text>
+	<text id="loader_unblockaccount" lang="language">
+		<ru>Ваш аккаунт был разблокирован</ru>
+		<en>Your account has been blocked</en>
+	</text>
+	<text id="loader_server_hang" lang="language">
+		<ru>Уважаемые игроки, на сервере проводятся плановые технические работы. Мы ждем Вас через 5 минут</ru>
+		<en>Dear Players, planned maintenance is processing on our server. We are waiting for You in a 5 minutes</en>
+	</text>
+	<text id="loader_socket_fail" lang="language">
+		<ru>Не удается установить соединение с сервером.
+Обращаем Ваше внимание, что игра устанавливает соединение с игровым сервером через #port порт.
+Проверьте настройки Вашего фаервола или прокси-сервера. Если все настройки верны, попробуйте зайти позже.</ru>
+		<en>Failed to establish server connection.
+Please notice that the game connects to gaming server through #port port.
+Check your Firewall or Proxy-server settings. If the settings are correct, please try again later.</en>
+	</text>
+	<text id="loader_server_up" lang="language">
+		<ru>Работа сервера восстановлена</ru>
+		<en>Server was restored</en>
+	</text>
+	<text id="loader_server_down" lang="language">
+		<ru>Сервер временно не работает, пожалуйста подождите</ru>
+		<en>Server temporary unavailable. Please, wait</en>
+	</text>
+	<text id="loader_server_error" lang="language">
+		<ru>Неопределенная ошибка сервера.</ru>
+		<en>Unknown server error.</en>
+	</text>
+	<text id="loader_server_error_block" lang="language">
+		<ru><![CDATA[Ваш аккаунт заблокирован. Обратитесь в <a href="asfunction:_root.gotoSite"><u><b>чат службы поддержки</b></u></a> интернет-казино.]]></ru>
+		<en><![CDATA[Your account has been blocked. Contact <a href="asfunction:_root.gotoSite"><u><b>the customer service chat</b></u></a> online casinos.]]></en>
+	</text>
+	<text id="loader_connection_lost" lang="language">
+		<ru>Соединение с сервером разорвано. Возможные причины:
+1. Некорректная работа интернет-соединения (критичные потери на линии связи Вашего или магистрального провайдера).
+2. Профилактические работы на игровом сервере.
+Для восстановления нажмите на кнопку "ОК". 
+В случае возникновения вопросов обращайтесь в службу поддержки казино.</ru>
+		<en>Connection to server was lost. Possible reasons:
+1. Incorrect operation of Internet connections (critical loss on the line or your mainprovider).
+2. Maintenance work on the game server.
+Press "OK" to reconnect. If you have questions, please contact customer support casinos.</en>
+	</text>
+	<text id="loader_logoff_replace" lang="language">
+		<ru>Произошел вход под Вашим логином с другого компьютера #</ru>
+		<en>Somebody entered by Your login from another computer# </en>
+	</text>
+	<text id="loader_error_gametext" lang="language">
+		<ru>Невозможно загрузить текстовый модуль игры</ru>
+		<en>Text module of the game can't be loaded</en>
+	</text>
+	<text id="loader_wait_response" lang="language">
+		<ru>Идет запрос на сервер</ru>
+		<en>Server request. Please, wait</en>
+	</text>
+
+	<text id="roulette_over_empty_spin_limit" lang="language">
+		<ru>Вы не сделали ни одной ставки в течение 3 раундов. Сейчас произойдет переход в лобби.</ru>
+		<en>You have not any bet during 3 spins. Now proceed to the lobby.</en>
+	</text>
+	<text id="attention_people" lang="language">
+		<ru>!Обращаем Ваше внимание что выплата средств 27 и 28.06.2011 производиться не будет, финансовый отдел начнет свою работу 29.06.2011.</ru>
+		<en>!Please note that payment of 27 and 28.06.2011 will not be made, the finance department will begin 06.29.2011.</en>
+	</text>
+
+	<text id="email_1" lang="language">
+		<ru>Техническая поддержка</ru>
+		<en>Support</en>
+		<code>tech@cristalpalaceonline.com</code>
+	</text>
+	<text id="email_2" lang="language">
+		<ru>Финансовый отдел</ru>
+		<en>Finance Department</en>
+		<code>finance@cristalpalaceonline.com</code>
+	</text>
+	<text id="email_3" lang="language">
+		<ru>Запросы VIP клиентов</ru>
+		<en>Requests VIP clients</en>
+		<code>vip@cristalpalaceonline.com</code>
+	</text>
+	<text id="email_4" lang="language">
+		<ru>Служба поддержки</ru>
+		<en>General</en>
+		<code>support@cristalpalaceonline.com</code>
+	</text>
+	
+	<text id="language_1" lang="language">	<ru>Русский</ru>	<en>Russian</en>	<code>RU</code>	</text>
+	<text id="language_2" lang="language">	<ru>Английский</ru>	<en>English</en>	<code>EN</code>	</text>
+
+	<text id="month_1" lang="language">	<ru>Январь</ru>	<en>January</en>	</text>
+	<text id="month_2" lang="language">	<ru>Февраль</ru>	<en>February</en>	</text>
+	<text id="month_3" lang="language">	<ru>Март</ru>	<en>March</en>	</text>
+	<text id="month_4" lang="language">	<ru>Апрель</ru>	<en>April</en>	</text>
+	<text id="month_5" lang="language">	<ru>Май</ru>	<en>May</en>	</text>
+	<text id="month_6" lang="language">	<ru>Июнь</ru>	<en>June</en>	</text>
+	<text id="month_7" lang="language">	<ru>Июль</ru>	<en>July</en>	</text>
+	<text id="month_8" lang="language">	<ru>Август</ru>	<en>August</en>	</text>
+	<text id="month_9" lang="language">	<ru>Сентябрь</ru>	<en>September</en>	</text>
+	<text id="month_10" lang="language">	<ru>Октябрь</ru>	<en>October</en>	</text>
+	<text id="month_11" lang="language">	<ru>Ноябрь</ru>	<en>November</en>	</text>
+	<text id="month_12" lang="language">	<ru>Декабрь</ru>	<en>December</en>	</text>
+
+
+	
+	<text id="country_1" lang="language"><ru>Россия</ru><en>Russia</en><code>RU</code></text>
+	<text id="country_2" lang="language"><ru>Белоруссия</ru><en>Belarus</en><code>BY</code></text>
+	<text id="country_3" lang="language"><ru>Украина</ru><en>Ukraine</en><code>UA</code></text>
+	<text id="country_4" lang="language"><ru>Казахстан</ru><en>Kazakhstan</en><code>KZ</code></text>
+	<text id="country_5" lang="language"><ru>Австралия</ru><en>Australia</en><code>AU</code></text>
+	<text id="country_6" lang="language"><ru>Австрия</ru><en>Austria</en><code>AT</code></text>
+	<text id="country_7" lang="language"><ru>Азербайджан</ru><en>Azerbaijan</en><code>AZ</code></text>
+	<text id="country_8" lang="language"><ru>Албания</ru><en>Albania</en><code>AL</code></text>
+	<text id="country_9" lang="language"><ru>Алжир</ru><en>Algeria</en><code>DZ</code></text>
+	<text id="country_10" lang="language"><ru>Ангилья</ru><en>Anguilla</en><code>AI</code></text>
+	<text id="country_11" lang="language"><ru>Ангола</ru><en>Angola</en><code>AO</code></text>
+	<text id="country_12" lang="language"><ru>Андорра</ru><en>Andorra</en><code>AD</code></text>
+	<text id="country_13" lang="language"><ru>Антарктика</ru><en>Antarctica</en><code>AQ</code></text>
+	<text id="country_14" lang="language"><ru>Антигуа и Барбуда</ru><en>Antigua and Barbuda</en><code>AG</code></text>
+	<text id="country_15" lang="language"><ru>Антильские острова (Нид.)</ru><en>Netherlands Antilles</en><code>AN</code></text>
+	<text id="country_16" lang="language"><ru>Аомынь (Макао)</ru><en>Macau</en><code>MO</code></text>
+	<text id="country_17" lang="language"><ru>Аргентина</ru><en>Argentina</en><code>AR</code></text>
+	<text id="country_18" lang="language"><ru>Армения</ru><en>Armenia</en><code>AM</code></text>
+	<text id="country_19" lang="language"><ru>Аруба (Антильские острова Нид.)</ru><en>Aruba</en><code>AW</code></text>
+	<text id="country_20" lang="language"><ru>Афганистан</ru><en>Afghanistan</en><code>AF</code></text>
+	<text id="country_21" lang="language"><ru>Багамские Острова</ru><en>Bahamas</en><code>BS</code></text>
+	<text id="country_22" lang="language"><ru>Бангладеш</ru><en>Bangladesh</en><code>BD</code></text>
+	<text id="country_23" lang="language"><ru>Барбадос</ru><en>Barbados</en><code>BB</code></text>
+	<text id="country_24" lang="language"><ru>Бахрейн</ru><en>Bahrain</en><code>BH</code></text>
+	<text id="country_25" lang="language"><ru>Белиз</ru><en>Belize</en><code>BZ</code></text>
+	<text id="country_26" lang="language"><ru>Бельгия</ru><en>Belgium</en><code>BE</code></text>
+	<text id="country_27" lang="language"><ru>Бенин</ru><en>Benin</en><code>BJ</code></text>
+	<text id="country_28" lang="language"><ru>Бермудские Острова</ru><en>Bermuda</en><code>BM</code></text>
+	<text id="country_29" lang="language"><ru>Болгария</ru><en>Bulgaria</en><code>BG</code></text>
+	<text id="country_30" lang="language"><ru>Боливия</ru><en>Bolivia</en><code>BO</code></text>
+	<text id="country_31" lang="language"><ru>Босния и Герцеговина</ru><en>Bosnia and Herzegovina</en><code>BA</code></text>
+	<text id="country_32" lang="language"><ru>Ботсвана</ru><en>Botswana</en><code>BW</code></text>
+	<text id="country_33" lang="language"><ru>Бразилия</ru><en>Brazil</en><code>BR</code></text>
+	<text id="country_34" lang="language"><ru>Британские территории в Индийском океане</ru><en>British Indian Ocean Territory</en><code>IO</code></text>
+	<text id="country_35" lang="language"><ru>Бруней</ru><en>Brunei</en><code>BN</code></text>
+	<text id="country_36" lang="language"><ru>Буве остров</ru><en>Bouvet Island</en><code>BV</code></text>
+	<text id="country_37" lang="language"><ru>Буркина-Фасо</ru><en>Burkina Faso</en><code>BF</code></text>
+	<text id="country_38" lang="language"><ru>Бурунди</ru><en>Burundi</en><code>BI</code></text>
+	<text id="country_39" lang="language"><ru>Бутан</ru><en>Bhutan</en><code>BT</code></text>
+	<text id="country_40" lang="language"><ru>Вануату</ru><en>Vanuatu</en><code>VU</code></text>
+	<text id="country_41" lang="language"><ru>Ватикан</ru><en>Vatican (or Holy See)</en><code>VA</code></text>
+	<text id="country_42" lang="language"><ru>Великобритания</ru><en>Great Britain</en><code>GB</code></text>
+	<text id="country_43" lang="language"><ru>Венгрия</ru><en>Hungary</en><code>HU</code></text>
+	<text id="country_44" lang="language"><ru>Венесуэла</ru><en>Venezuela</en><code>VE</code></text>
+	<text id="country_45" lang="language"><ru>Виргинские острова (Брит.)</ru><en>Virgin Islands, British</en><code>VG</code></text>
+	<text id="country_46" lang="language"><ru>Виргинские острова (США)</ru><en>Virgin Islands, U.S.</en><code>VI</code></text>
+	<text id="country_47" lang="language"><ru>Восточное Самоа</ru><en>American Samoa</en><code>AS</code></text>
+	<text id="country_48" lang="language"><ru>Восточный Тимор</ru><en>Timor-Leste (East Timor)</en><code>TL</code></text>
+	<text id="country_49" lang="language"><ru>Вьетнам</ru><en>Vietnam</en><code>VN</code></text>
+	<text id="country_50" lang="language"><ru>Габон</ru><en>Gabon</en><code>GA</code></text>
+	<text id="country_51" lang="language"><ru>Гаити</ru><en>Haiti</en><code>HT</code></text>
+	<text id="country_52" lang="language"><ru>Гайана</ru><en>Guyana</en><code>GY</code></text>
+	<text id="country_53" lang="language"><ru>Гамбия</ru><en>Gambia</en><code>GM</code></text>
+	<text id="country_54" lang="language"><ru>Гана</ru><en>Ghana</en><code>GH</code></text>
+	<text id="country_55" lang="language"><ru>Гваделупа</ru><en>Guadeloupe</en><code>GP</code></text>
+	<text id="country_56" lang="language"><ru>Гватемала</ru><en>Guatemala</en><code>GT</code></text>
+	<text id="country_57" lang="language"><ru>Гвиана (Фр.)</ru><en>French Guiana</en><code>GF</code></text>
+	<text id="country_58" lang="language"><ru>Гвинея</ru><en>Guinea</en><code>GN</code></text>
+	<text id="country_59" lang="language"><ru>Гвинея-Бисау</ru><en>Guinea-Bissau</en><code>GW</code></text>
+	<text id="country_60" lang="language"><ru>Германия</ru><en>Germany</en><code>DE</code></text>
+	<text id="country_61" lang="language"><ru>Гернси</ru><en>Guernsey</en><code>GG</code></text>
+	<text id="country_62" lang="language"><ru>Гибралтар</ru><en>Gibraltar</en><code>GI</code></text>
+	<text id="country_63" lang="language"><ru>Гондурас</ru><en>Honduras</en><code>HN</code></text>
+	<text id="country_64" lang="language"><ru>Гренада</ru><en>Grenada</en><code>GD</code></text>
+	<text id="country_65" lang="language"><ru>Гренландия</ru><en>Greenland</en><code>GL</code></text>
+	<text id="country_66" lang="language"><ru>Греция</ru><en>Greece</en><code>GR</code></text>
+	<text id="country_67" lang="language"><ru>Грузия</ru><en>Georgia</en><code>GE</code></text>
+	<text id="country_68" lang="language"><ru>Гуам</ru><en>Guam</en><code>GU</code></text>
+	<text id="country_69" lang="language"><ru>Дания</ru><en>Denmark</en><code>DK</code></text>
+	<text id="country_70" lang="language"><ru>Джерси</ru><en>Jersey</en><code>JE</code></text>
+	<text id="country_71" lang="language"><ru>Джибути</ru><en>Djibouti</en><code>DJ</code></text>
+	<text id="country_72" lang="language"><ru>Доминика</ru><en>Dominica</en><code>DM</code></text>
+	<text id="country_73" lang="language"><ru>Доминиканская Республика</ru><en>Dominican Republic</en><code>DO</code></text>
+	<text id="country_74" lang="language"><ru>Египет</ru><en>Egypt</en><code>EG</code></text>
+	<text id="country_75" lang="language"><ru>Замбия</ru><en>Zambia</en><code>ZM</code></text>
+	<text id="country_76" lang="language"><ru>Западная Сахара</ru><en>Western Sahara</en><code>EH</code></text>
+	<text id="country_77" lang="language"><ru>Западное Самоа</ru><en>Samoa</en><code>WS</code></text>
+	<text id="country_78" lang="language"><ru>Зимбабве</ru><en>Zimbabwe</en><code>ZW</code></text>
+	<text id="country_79" lang="language"><ru>Израиль</ru><en>Israel</en><code>IL</code></text>
+	<text id="country_80" lang="language"><ru>Индия</ru><en>India</en><code>IN</code></text>
+	<text id="country_81" lang="language"><ru>Индонезия</ru><en>Indonesia</en><code>ID</code></text>
+	<text id="country_82" lang="language"><ru>Иордания</ru><en>Jordan</en><code>JO</code></text>
+	<text id="country_83" lang="language"><ru>Ирак</ru><en>Iraq</en><code>IQ</code></text>
+	<text id="country_84" lang="language"><ru>Иран</ru><en>Iran</en><code>IR</code></text>
+	<text id="country_85" lang="language"><ru>Ирландия</ru><en>Ireland</en><code>IE</code></text>
+	<text id="country_86" lang="language"><ru>Исландия</ru><en>Iceland</en><code>IS</code></text>
+	<text id="country_87" lang="language"><ru>Испания</ru><en>Spain</en><code>ES</code></text>
+	<text id="country_88" lang="language"><ru>Италия</ru><en>Italy</en><code>IT</code></text>
+	<text id="country_89" lang="language"><ru>Йемен</ru><en>Yemen</en><code>YE</code></text>
+	<text id="country_90" lang="language"><ru>Кабо-Верде</ru><en>Cape Verde</en><code>CV</code></text>
+	<text id="country_91" lang="language"><ru>Кайман острова</ru><en>Cayman Islands</en><code>KY</code></text>
+	<text id="country_92" lang="language"><ru>Камбоджа</ru><en>Cambodia</en><code>KH</code></text>
+	<text id="country_93" lang="language"><ru>Камерун</ru><en>Cameroon</en><code>CM</code></text>
+	<text id="country_94" lang="language"><ru>Канада</ru><en>Canada</en><code>CA</code></text>
+	<text id="country_95" lang="language"><ru>Катар</ru><en>Qatar</en><code>QA</code></text>
+	<text id="country_96" lang="language"><ru>Кения</ru><en>Kenya</en><code>KE</code></text>
+	<text id="country_97" lang="language"><ru>Кипр</ru><en>Cyprus</en><code>CY</code></text>
+	<text id="country_98" lang="language"><ru>Киргизия</ru><en>Kyrgyzstan</en><code>KG</code></text>
+	<text id="country_99" lang="language"><ru>Кирибати</ru><en>Kiribati</en><code>KI</code></text>
+	<text id="country_100" lang="language"><ru>Китай</ru><en>China</en><code>CN</code></text>
+	<text id="country_101" lang="language"><ru>Кокосовые(Килинг) острова</ru><en>Cocos Islands (Keeling)</en><code>CC</code></text>
+	<text id="country_102" lang="language"><ru>Колумбия</ru><en>Colombia</en><code>CO</code></text>
+	<text id="country_103" lang="language"><ru>Коморские Острова</ru><en>Comoros</en><code>KM</code></text>
+	<text id="country_104" lang="language"><ru>Конго</ru><en>Congo</en><code>CG</code></text>
+	<text id="country_105" lang="language"><ru>Конго, Демократическая Республика</ru><en>Congo, the Democratic Republic of the</en><code>CD</code></text>
+	<text id="country_106" lang="language"><ru>Коста-Рика</ru><en>Costa Rica</en><code>CR</code></text>
+	<text id="country_107" lang="language"><ru>Кот-д'Ивуар</ru><en>Cote d'Ivoire</en><code>CI</code></text>
+	<text id="country_108" lang="language"><ru>Куба</ru><en>Cuba</en><code>CU</code></text>
+	<text id="country_109" lang="language"><ru>Кувейт</ru><en>Kuwait</en><code>KW</code></text>
+	<text id="country_110" lang="language"><ru>Кука Острова</ru><en>Cook Islands</en><code>CK</code></text>
+	<text id="country_111" lang="language"><ru>Лаос</ru><en>Laos</en><code>LA</code></text>
+	<text id="country_112" lang="language"><ru>Латвия</ru><en>Latvia</en><code>LV</code></text>
+	<text id="country_113" lang="language"><ru>Лесото</ru><en>Lesotho</en><code>LS</code></text>
+	<text id="country_114" lang="language"><ru>Либерия</ru><en>Liberia</en><code>LR</code></text>
+	<text id="country_115" lang="language"><ru>Ливан</ru><en>Lebanon</en><code>LB</code></text>
+	<text id="country_116" lang="language"><ru>Ливия</ru><en>Libya</en><code>LY</code></text>
+	<text id="country_117" lang="language"><ru>Литва</ru><en>Lithuania</en><code>LT</code></text>
+	<text id="country_118" lang="language"><ru>Лихтенштейн</ru><en>Liechtenstein</en><code>LI</code></text>
+	<text id="country_119" lang="language"><ru>Люксембург</ru><en>Luxembourg</en><code>LU</code></text>
+	<text id="country_120" lang="language"><ru>Маврикий</ru><en>Mauritius</en><code>MU</code></text>
+	<text id="country_121" lang="language"><ru>Мавритания</ru><en>Mauritania</en><code>MR</code></text>
+	<text id="country_122" lang="language"><ru>Мадагаскар</ru><en>Madagascar</en><code>MG</code></text>
+	<text id="country_123" lang="language"><ru>Майотта</ru><en>Mayotte</en><code>YT</code></text>
+	<text id="country_124" lang="language"><ru>Македония</ru><en>Macedonia</en><code>MK</code></text>
+	<text id="country_125" lang="language"><ru>Малави</ru><en>Malawi</en><code>MW</code></text>
+	<text id="country_126" lang="language"><ru>Малайзия</ru><en>Malaysia</en><code>MY</code></text>
+	<text id="country_127" lang="language"><ru>Мали</ru><en>Mali</en><code>ML</code></text>
+	<text id="country_128" lang="language"><ru>Мальдивы</ru><en>Maldives</en><code>MV</code></text>
+	<text id="country_129" lang="language"><ru>Мальта</ru><en>Malta</en><code>MT</code></text>
+	<text id="country_130" lang="language"><ru>Марокко</ru><en>Morocco</en><code>MA</code></text>
+	<text id="country_131" lang="language"><ru>Мартиника</ru><en>Martinique</en><code>MQ</code></text>
+	<text id="country_132" lang="language"><ru>Маршалловы Острова</ru><en>Marshall Islands</en><code>MH</code></text>
+	<text id="country_133" lang="language"><ru>Мексика</ru><en>Mexico</en><code>MX</code></text>
+	<text id="country_134" lang="language"><ru>Мелкие отдаленные острова США</ru><en>United States Minor Outlying Islands</en><code>UM</code></text>
+	<text id="country_135" lang="language"><ru>Микронезия, Федеративные Штаты</ru><en>Micronesia, Federated States of</en><code>FM</code></text>
+	<text id="country_136" lang="language"><ru>Мозамбик</ru><en>Mozambique</en><code>MZ</code></text>
+	<text id="country_137" lang="language"><ru>Молдавия</ru><en>Moldova</en><code>MD</code></text>
+	<text id="country_138" lang="language"><ru>Монако</ru><en>Monaco</en><code>MC</code></text>
+	<text id="country_139" lang="language"><ru>Монголия</ru><en>Mongolia</en><code>MN</code></text>
+	<text id="country_140" lang="language"><ru>Монтсеррат</ru><en>Montserrat</en><code>MS</code></text>
+	<text id="country_141" lang="language"><ru>Мьянма</ru><en>Myanmar</en><code>MM</code></text>
+	<text id="country_142" lang="language"><ru>Намибия</ru><en>Namibia</en><code>NA</code></text>
+	<text id="country_143" lang="language"><ru>Науру</ru><en>Nauru</en><code>NR</code></text>
+	<text id="country_144" lang="language"><ru>Непал</ru><en>Nepal</en><code>NP</code></text>
+	<text id="country_145" lang="language"><ru>Нигер</ru><en>Niger</en><code>NE</code></text>
+	<text id="country_146" lang="language"><ru>Нигерия</ru><en>Nigeria</en><code>NG</code></text>
+	<text id="country_147" lang="language"><ru>Нидерланды</ru><en>Netherlands</en><code>NL</code></text>
+	<text id="country_148" lang="language"><ru>Никарагуа</ru><en>Nicaragua</en><code>NI</code></text>
+	<text id="country_149" lang="language"><ru>Ниуэ</ru><en>Niue</en><code>NU</code></text>
+	<text id="country_150" lang="language"><ru>Новая Зеландия</ru><en>New Zealand</en><code>NZ</code></text>
+	<text id="country_151" lang="language"><ru>Новая Каледония</ru><en>New Caledonia</en><code>NC</code></text>
+	<text id="country_152" lang="language"><ru>Норвегия</ru><en>Norway</en><code>NO</code></text>
+	<text id="country_153" lang="language"><ru>Норфолк</ru><en>Norfolk Island</en><code>NF</code></text>
+	<text id="country_154" lang="language"><ru>Объединенные Арабские Эмираты</ru><en>United Arab Emirates</en><code>AE</code></text>
+	<text id="country_155" lang="language"><ru>Оман</ru><en>Oman</en><code>OM</code></text>
+	<text id="country_156" lang="language"><ru>Остров Мэн</ru><en>Isle of Man</en><code>IM</code></text>
+	<text id="country_157" lang="language"><ru>Пакистан</ru><en>Pakistan</en><code>PK</code></text>
+	<text id="country_158" lang="language"><ru>Палау</ru><en>Palau</en><code>PW</code></text>
+	<text id="country_159" lang="language"><ru>Палестина</ru><en>Palestine</en><code>PS</code></text>
+	<text id="country_160" lang="language"><ru>Панама</ru><en>Panama</en><code>PA</code></text>
+	<text id="country_161" lang="language"><ru>Папуа-Новая Гвинея</ru><en>Papua New Guinea</en><code>PG</code></text>
+	<text id="country_162" lang="language"><ru>Парагвай</ru><en>Paraguay</en><code>PY</code></text>
+	<text id="country_163" lang="language"><ru>Перу</ru><en>Peru</en><code>PE</code></text>
+	<text id="country_164" lang="language"><ru>Питкэрн</ru><en>Pitcairn</en><code>PN</code></text>
+	<text id="country_165" lang="language"><ru>Польша</ru><en>Poland</en><code>PL</code></text>
+	<text id="country_166" lang="language"><ru>Португалия</ru><en>Portugal</en><code>PT</code></text>
+	<text id="country_167" lang="language"><ru>Пуэрто-Рико</ru><en>Puerto Rico</en><code>PR</code></text>
+	<text id="country_168" lang="language"><ru>Реюньон</ru><en>Reunion</en><code>RE</code></text>
+	<text id="country_169" lang="language"><ru>Рождества остров</ru><en>Christmas Island</en><code>CX</code></text>
+	<text id="country_170" lang="language"><ru>Руанда</ru><en>Rwanda</en><code>RW</code></text>
+	<text id="country_171" lang="language"><ru>Румыния</ru><en>Romania</en><code>RO</code></text>
+	<text id="country_172" lang="language"><ru>Сальвадор</ru><en>El Salvador</en><code>SV</code></text>
+	<text id="country_173" lang="language"><ru>Сан-Марино</ru><en>San Marino</en><code>SM</code></text>
+	<text id="country_174" lang="language"><ru>Сан-Томе и Принсипи</ru><en>Sao Tome and Principe</en><code>ST</code></text>
+	<text id="country_175" lang="language"><ru>Саудовская Аравия</ru><en>Saudi Arabia</en><code>SA</code></text>
+	<text id="country_176" lang="language"><ru>Свазиленд</ru><en>Swaziland</en><code>SZ</code></text>
+	<text id="country_177" lang="language"><ru>Святой Елены остров</ru><en>Saint Helena</en><code>SH</code></text>
+	<text id="country_178" lang="language"><ru>Северная Корея</ru><en>North Korea</en><code>KP</code></text>
+	<text id="country_179" lang="language"><ru>Северные Марианские острова</ru><en>Northern Mariana Islands</en><code>MP</code></text>
+	<text id="country_180" lang="language"><ru>Сейшельские острова</ru><en>Seychelles</en><code>SC</code></text>
+	<text id="country_181" lang="language"><ru>Сен-Пьер и Микелон</ru><en>Saint Pierre and Miquelon</en><code>PM</code></text>
+	<text id="country_182" lang="language"><ru>Сенегал</ru><en>Senegal</en><code>SN</code></text>
+	<text id="country_183" lang="language"><ru>Сент Винсент и Гренадины</ru><en>Saint Vincent and the Grenadines</en><code>VC</code></text>
+	<text id="country_184" lang="language"><ru>Сент-Китс и Невис</ru><en>Saint Kitts and Nevis</en><code>KN</code></text>
+	<text id="country_185" lang="language"><ru>Сент-Люсия</ru><en>Saint Lucia</en><code>LC</code></text>
+	<text id="country_186" lang="language"><ru>Сербия и Черногория</ru><en>Serbia and Montenegro</en><code>CS</code></text>
+	<text id="country_187" lang="language"><ru>Сингапур</ru><en>Singapore</en><code>SG</code></text>
+	<text id="country_188" lang="language"><ru>Сирия</ru><en>Syria</en><code>SY</code></text>
+	<text id="country_189" lang="language"><ru>Словакия</ru><en>Slovakia</en><code>SK</code></text>
+	<text id="country_190" lang="language"><ru>Словения</ru><en>Slovenia</en><code>SI</code></text>
+	<text id="country_191" lang="language"><ru>Соединенные Штаты Америки</ru><en>United States</en><code>US</code></text>
+	<text id="country_192" lang="language"><ru>Соединённое Королевство</ru><en>United Kingdom</en><code>UK</code></text>
+	<text id="country_193" lang="language"><ru>Соломоновы Острова</ru><en>Solomon Islands</en><code>SB</code></text>
+	<text id="country_194" lang="language"><ru>Сомали</ru><en>Somalia</en><code>SO</code></text>
+	<text id="country_195" lang="language"><ru>Судан</ru><en>Sudan</en><code>SD</code></text>
+	<text id="country_196" lang="language"><ru>Суринам</ru><en>Suriname</en><code>SR</code></text>
+	<text id="country_197" lang="language"><ru>Сьерра-Леоне</ru><en>Sierra Leone</en><code>SL</code></text>
+	<text id="country_198" lang="language"><ru>Сянган (Гонконг)</ru><en>Hong Kong</en><code>HK</code></text>
+	<text id="country_199" lang="language"><ru>Таджикистан</ru><en>Tajikistan</en><code>TJ</code></text>
+	<text id="country_200" lang="language"><ru>Таиланд</ru><en>Thailand</en><code>TH</code></text>
+	<text id="country_201" lang="language"><ru>Тайвань</ru><en>Taiwan</en><code>TW</code></text>
+	<text id="country_202" lang="language"><ru>Танзания</ru><en>Tanzania</en><code>TZ</code></text>
+	<text id="country_203" lang="language"><ru>Теркс и Кайкос острова</ru><en>Turks and Caicos Islands</en><code>TC</code></text>
+	<text id="country_204" lang="language"><ru>Того</ru><en>Togo</en><code>TG</code></text>
+	<text id="country_205" lang="language"><ru>Токелау</ru><en>Tokelau</en><code>TK</code></text>
+	<text id="country_206" lang="language"><ru>Тонга</ru><en>Tonga</en><code>TO</code></text>
+	<text id="country_207" lang="language"><ru>Тринидад и Тобаго</ru><en>Trinidad and Tobago</en><code>TT</code></text>
+	<text id="country_208" lang="language"><ru>Тувалу</ru><en>Tuvalu</en><code>TV</code></text>
+	<text id="country_209" lang="language"><ru>Тунис</ru><en>Tunisia</en><code>TN</code></text>
+	<text id="country_210" lang="language"><ru>Туркмения</ru><en>Turkmenistan</en><code>TM</code></text>
+	<text id="country_211" lang="language"><ru>Турция</ru><en>Turkey</en><code>TR</code></text>
+	<text id="country_212" lang="language"><ru>Уганда</ru><en>Uganda</en><code>UG</code></text>
+	<text id="country_213" lang="language"><ru>Узбекистан</ru><en>Uzbekistan</en><code>UZ</code></text>
+	<text id="country_214" lang="language"><ru>Уолис и Футуна острова</ru><en>Wallis and Futuna</en><code>WF</code></text>
+	<text id="country_215" lang="language"><ru>Уругвая</ru><en>Uruguay</en><code>UY</code></text>
+	<text id="country_216" lang="language"><ru>Фарерские Острова</ru><en>Faroe Islands</en><code>FO</code></text>
+	<text id="country_217" lang="language"><ru>Фиджи</ru><en>Fiji</en><code>FJ</code></text>
+	<text id="country_218" lang="language"><ru>Филиппины</ru><en>Philippines</en><code>PH</code></text>
+	<text id="country_219" lang="language"><ru>Финляндия</ru><en>Finland</en><code>FI</code></text>
+	<text id="country_220" lang="language"><ru>Фолклендские (Мальвинские) Острова</ru><en>Falkland Islands</en><code>FK</code></text>
+	<text id="country_221" lang="language"><ru>Франция</ru><en>France</en><code>FR</code></text>
+	<text id="country_222" lang="language"><ru>Французская Полинезия</ru><en>French Polynesia</en><code>PF</code></text>
+	<text id="country_223" lang="language"><ru>Французские Южные Территории</ru><en>French Southern Territories</en><code>TF</code></text>
+	<text id="country_224" lang="language"><ru>Херд и Макдональд, острова</ru><en>Heard Island and McDonald Islands</en><code>HM</code></text>
+	<text id="country_225" lang="language"><ru>Хорватия</ru><en>Croatia</en><code>HR</code></text>
+	<text id="country_226" lang="language"><ru>Центральноафриканская республика</ru><en>Central African Republic</en><code>CF</code></text>
+	<text id="country_227" lang="language"><ru>Чад</ru><en>Chad</en><code>TD</code></text>
+	<text id="country_228" lang="language"><ru>Чехия</ru><en>Czechia</en><code>CZ</code></text>
+	<text id="country_229" lang="language"><ru>Чили</ru><en>Chile</en><code>CL</code></text>
+	<text id="country_230" lang="language"><ru>Швейцария</ru><en>Switzerland</en><code>CH</code></text>
+	<text id="country_231" lang="language"><ru>Швеция</ru><en>Sweden</en><code>SE</code></text>
+	<text id="country_232" lang="language"><ru>Шпицберген и Ян-Майен</ru><en>Svalbard and Jan Mayen</en><code>SJ</code></text>
+	<text id="country_233" lang="language"><ru>Шри-Ланка</ru><en>Sri Lanka</en><code>LK</code></text>
+	<text id="country_234" lang="language"><ru>Эквадор</ru><en>Ecuador</en><code>EC</code></text>
+	<text id="country_235" lang="language"><ru>Экваториальная Гвинея</ru><en>Equatorial Guinea</en><code>GQ</code></text>
+	<text id="country_236" lang="language"><ru>Эритрея</ru><en>Eritrea</en><code>ER</code></text>
+	<text id="country_237" lang="language"><ru>Эстония</ru><en>Estonia</en><code>EE</code></text>
+	<text id="country_238" lang="language"><ru>Эфиопия</ru><en>Ethiopia</en><code>ET</code></text>
+	<text id="country_239" lang="language"><ru>Южная Африка</ru><en>South Africa</en><code>ZA</code></text>
+	<text id="country_240" lang="language"><ru>Южная Георгия и Южные Сандвичевы Острова</ru><en>South Georgia and the South Sandwich Islands</en><code>GS</code></text>
+	<text id="country_241" lang="language"><ru>Южная Корея</ru><en>South Korea</en><code>KR</code></text>
+	<text id="country_242" lang="language"><ru>Ямайка</ru><en>Jamaica</en><code>JM</code></text>
+	<text id="country_243" lang="language"><ru>Япония</ru><en>Japan</en><code>JP</code></text>	
+	
+	<!-- CASH DATA COPY FOR MINI CASH - DON'T TOUCH -->
+	<text id="title_cashierdeposit" lang="language">
+		<ru><![CDATA[Пополнить счет - ]]></ru>
+		<en><![CDATA[Deposit - ]]></en>
+	</text>
+	<text id="title_cashierdeposit_sms" lang="language">
+		<ru><![CDATA[SMS]]></ru>
+		<en><![CDATA[SMS]]></en>
+	</text>
+	<text id="label_selectcountry" lang="language">
+		<ru><![CDATA[Выберите страну:]]></ru>
+		<en><![CDATA[Country:]]></en>
+	</text>
+	<text id="label_selectoperator" lang="language">
+		<ru><![CDATA[Выберите оператора:]]></ru>
+		<en><![CDATA[Select the operator:]]></en>
+	</text>
+	<text id="label_inputnum" lang="language">
+		<ru><![CDATA[Код:]]></ru>
+		<en><![CDATA[Code:]]></en>
+	</text>
+	<text id="label_selectsum" lang="language">
+		<ru><![CDATA[Выберите сумму:]]></ru>
+		<en><![CDATA[Select the sum:]]></en>
+	</text>
+	<text id="text_cashierdeposit_sms" lang="language">
+		<ru><![CDATA[Вы сможете легко и оперативно сделать депозит, воспользовавшись счетом своего мобильного телефона. <b>Обращаем ваше внимание, при совершении депозита с помощью SMS, половина средств зачисляется на Ваш счет в виде бонуса.</b>]]></ru>
+		<en><![CDATA[.]]></en>
+	</text>
+	<text id="text_cashierdeposit_sms_1" lang="language">
+		<ru><![CDATA[<br></br>Внимание! Отправлять СМС можно на сумму <b><font color='#ffff66'>не более 30$ в сутки</font></b> с одного номера. В случае превышения лимита счет в казино <b><font color='#ffff66'>пополняться не будет</font></b>, но средства с Вашего телефона <b><font color='#ffff66'>будут списаны</font></b>.</b>]]></ru>
+		<en><![CDATA[.]]></en>
+	</text>
+	<text id="text_cashierdeposit_sms_2" lang="language">
+		<ru><![CDATA[<b><font color='#ffff66'>Внимание! Существует следующее ограничение:</font></b> отправлять SMS можно на сумму <b><font color='#ffff66'> не более #per_hour$ в час</font></b> или <b><font color='#ffff66'>не более #per_day$ в сутки</font></b>.<br>При превышении данного лимита все последующие SMS <b><font color='#ffff66'>не будут зачислены</font></b> на Ваш счет, но деньги с Вашего телефона <b><font color='#ffff66'>будут списаны</font></b>!<br>Обращаем Ваше внимание на то, что на счету Вашего телефона должен быть положительный баланс в течение 10-20 дней после отправки последнего SMS с этого номера и телефон должен быть включен. Иначе Вы более не сможете приобретать ваучеры пополнения! ]]></ru>
+		<en><![CDATA[.]]></en>
+	</text>
+	<text id="text_cashierdeposit_sms_3" lang="language">
+		<ru><![CDATA[<u><b>Я прочел и обязуюсь выполнять выше указанные правила</b></u> ]]></ru>
+		<en><![CDATA[.]]></en>
+	</text>
+	<text id="text_cashierdeposit_sms_4" lang="language">
+		<ru><![CDATA[Вы можете приобрести ваучер на сумму <b><font color='#ffff66'>«$#real + $#bonus бонусов(#wager)»</font></b>.<br></br>Стоимость одного такого SMS сообщения составляет<b><font color='#ffff66'> #price #currency + #nds % НДС </font></b>по курсу мобильного оператора.<br></br>Для этого Вам необходимо отправить SMS<br></br>с текстом:<b><font color='#ffff66'> #number </font></b><br></br>(внимание, в тексте могут присутствовать пробелы)<br></br>на номер: <b><font color='#ffff66'>#tel</font></b><br></br>Данная услуга действительна <b><font color='#ffff66'>ТОЛЬКО</font></b> для абонентов <b><font color='#ffff66'>#operator</font></b>.]]></ru>
+		<en><![CDATA[.]]></en>
+	</text>
+</data>

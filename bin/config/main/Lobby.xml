@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<text id="menuBtnCards">
+		<ru>Карты</ru>
+		<en>Cards</en>
+	</text>	
+	<text id="menuBtnKeno">
+		<ru>Кено</ru>
+		<en>Keno</en>
+	</text>
+	<text id="menuBtnPoker">
+		<ru>Покер</ru>
+		<en>Poker</en>
+	</text>
+	<text id="menuBtnRoulette">
+		<ru>Рулетка</ru>
+		<en>Roulette</en>
+	</text>
+	<text id="menuBtnVideopokers">
+		<ru>Видеопокеры</ru>
+		<en>Videopokers</en>
+	</text>
+	<text id="menuBtnSlots">
+		<ru><![CDATA[Слот-<br>автоматы]]></ru>
+		<en>Slot machines</en>
+	</text>
+</data>

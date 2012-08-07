@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<CONST_HOST                 		val="87.239.184.114" />
+	<CONST_URL                  		val="http://$CONST_HOST$/" />
+	<CONST_URL_CGI              		val="$CONST_URL$cgi/" />
+	<CONST_URL_CGI_PAYCREATE    		val="$CONST_URL_CGI$user.cgi?srv=221&cm=paycreate" />
+	<CONST_URL_CGI_USER         		val="$CONST_URL_CGI$user.cgi?srv=221" />
+	<CONST_URL_CGI_HC           		val="$CONST_URL_CGI$hc_publishseq.cgi?srv=221" />
+	<server_host                		val="$CONST_HOST$" />
+	<server_port                		val="8221" type="array" />
+	<server_http                		val="$CONST_URL_CGI$server.cgi?srv=221" />
+	<server_use_http 					val="1" />
+	<server_use_socket 				    val="1" />
+	<server_use_http_auth     	 	    val="1" />
+	<server_session_timeout             val="4000" type="seconds"/>
+	<server_wait_answer_timeout         val="15" type="seconds"/>
+	<server_ping_time                   val="4" type="seconds"/>
+</data>
